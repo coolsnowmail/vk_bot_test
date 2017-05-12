@@ -1,0 +1,21 @@
+class GetVkApi < ActiveRecord::Base
+  def self.gets
+    # require "net/http"
+    # require "uri"
+    # require 'rubygems'
+    # require 'net/https'
+    # require 'json'
+    # require 'open-uri'
+    # require 'pp'
+
+    uri = URI.parse("https://api.vk.com/method/groups.getMembers")
+    response = Net::HTTP.post_form(uri, {"group_id" => "bageto",
+        "sort" => "id_desc",
+        "offset" => "0",
+        "count" => "10",
+        "access_token" => "e5457bd115721291a768a85ae0fb456e492337b98f0070e2e836d1f97e707f90402fc7cd92199d43a831d",
+        "v" => "5.62"})
+    e = JSON.parse(response.body)
+    puts e["response"]["items"]
+  end
+end

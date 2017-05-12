@@ -1,0 +1,12 @@
+.alert
+  - if @group.errors.any?
+    #error_explanation
+      ul
+        - @group.errors.full_messages.each do |message|
+          li = message
+
+= form_for @group, html: {class: "forma"} do |f|
+  .field
+    = f.label t("groups.url")
+    = f.text_field :url
+  .actions = f.submit t('Create'), class: "button"

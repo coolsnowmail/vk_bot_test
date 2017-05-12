@@ -1,0 +1,132 @@
+.session_header{
+  background: #E08283;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+}
+
+.session_header a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ececec;
+}
+
+.singup {
+  background: #DADFE1;
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 20px 20px;
+  padding: 10px;
+}
+
+#name:focus{
+  border: 2px solid #00B16A;
+}
+
+#password:focus{
+  border: 2px solid #00B16A;
+}
+
+lable {
+  display: block;
+
+}
+
+.button-login {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+}
+
+.action-login {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#password {
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name {
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+.singup-field {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.singup-title {
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* .singup-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+lable {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+#password {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name:focus{
+  border: 2px solid #00B16A;
+}
+
+#password:focus{
+  border: 2px solid #00B16A;
+}
+
+.singup-submit {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 20px;
+}
+ */

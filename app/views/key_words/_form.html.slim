@@ -1,0 +1,14 @@
+.back_conteiner
+  #key_word_back <<<<<
+
+= form_for @key_word, html: {class: "forma"}, remote: true do |f|
+  - if @key_word.errors.any?
+    #error_explanation
+      ul
+        - @key_word.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :word
+    = f.text_field :word
+  .actions = f.submit t('save_button'), class: "button"

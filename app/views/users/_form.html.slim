@@ -1,0 +1,21 @@
+- if @user.errors.any?
+  .alert
+    h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+    ul
+      - @user.errors.full_messages.each do |message|
+        li = message
+
+= form_for @user, html: {class: "forma"} do |f|
+  .field
+    label = t("users.name")
+    = f.text_field :name
+  .field
+    label = t("users.vk id")
+    = f.text_field :vk_id
+  .field
+    label = t("admin.password")
+    = f.text_field :password
+  .field
+    label = t("admin.confirm password")
+    = f.text_field :password_confirmation
+  .actions = f.submit t("save_button"), class: "button"

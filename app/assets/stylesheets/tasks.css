@@ -1,0 +1,30 @@
+.task-box {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 600px;
+  border-radius: 15px;
+  background: #ECF0F1;
+}
+
+.task-box li{
+  display: inline-block;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.task-li {
+  text-decoration: none;
+  color: #446CB3;
+}
+
+
+.back {
+  display: inline-block;
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+

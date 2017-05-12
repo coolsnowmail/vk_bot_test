@@ -1,0 +1,131 @@
+#title {
+  text-align: center;
+}
+
+
+label {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+#admin_password {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_name {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_password_confirmation {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_vk_id {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+.admin_submit {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #19B5FE;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 20px;
+}
+
+.boxi {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.boxi a {
+  color: #26A65B;
+  text-align: center;
+}
+
+ul.admin-box {
+  width: 800px;
+  min-height: 300px;
+  margin: 50px auto;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+
+ul.admin-box li {
+  list-style: none;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul.admin-box li p {
+  font-size: 15px;
+}
+
+
+
+
+ul.admin-box li span {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+ul.admin-box li a {
+
+}
+
+
+.admin-box__title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.edit {
+  font-size: 14px;
+  width: 100px;
+}
+
+.new_user {
+  text-align: center;
+}
+
+.new_user a {
+  color: #26A65B;
+}
+
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 10px;
+}

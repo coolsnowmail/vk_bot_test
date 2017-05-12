@@ -1,0 +1,10 @@
+#key_word_sector
+  -unless @current_user.task.message_group.key_words.any?
+    span#have_no_key_word =t('have no key word')
+  -else
+    ul#key_words_field
+      - @current_user.task.message_group.key_words.each do |key_word|
+        li.key_word id="key_word_#{key_word.id}"
+          .word_name = key_word.word
+          .word_delete = link_to t('Destroy'), key_word, data: { confirm: t('Are you sure') }, method: :delete, remote: true
+  =link_to t('Create'), new_key_word_path, remote: true, id: "create_key_word_link", class: "button"

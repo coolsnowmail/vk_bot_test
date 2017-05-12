@@ -1,0 +1,111 @@
+.messages h4 {
+  text-align: center;
+}
+
+.messages_list_head {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.message_group_box {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.name_message_group_box {
+  display: flex;
+}
+
+.vk_id_message_group_box {
+  display: flex;
+}
+
+.message_group_lable {
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+#group_message_edit {
+  margin: auto 0;
+}
+
+#key_word_sector {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#key_word_sector ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.key_word {
+  display: flex;
+  align-content: stretch;
+}
+
+.word_name {
+  flex-grow: 4;
+}
+
+.word_delete {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 800;
+}
+
+#create_key_word_link {
+  margin-bottom: 30px;
+}
+
+
+.back_conteiner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#key_word_back {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#message_group_create {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+#message_group_create span {
+  display: block;
+  color: #f00;
+}
+
+#message_group_create a {
+  display: block;
+  color:  #008000;
+  font-size: 20px;
+}
+
+#message_group_back_create {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#message_group_back {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#have_no_key_word {
+  color: #f00;
+}

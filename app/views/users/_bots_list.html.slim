@@ -1,0 +1,24 @@
+-if @current_user.task.bots.any?
+  - @current_user.task.bots.order(:created_at).each do |bot|
+    -if bot.status == "Not Active"
+      li.user_items.user_line id="bot_#{bot.id}"
+        .li-box.bot-descript
+          span.not_ative_st = bot.description + t('users.bot status') + bot.status.to_s
+        .li-box
+          = link_to t('Edit'), edit_bot_path(bot), remote: true
+        .li-box
+          = link_to t('Destroy'), bot, data: { confirm: t('Are you sure') }, method: :delete, remote: true
+        .li-box
+          = link_to "Получить токен", "https://oauth.vk.com/authorize?client_id=5539597&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=notify,messages,photos,docs,friends,audio,video,pages,notes,status,wall,ads,offline,groups,notifications,stats,email,market&response_type=token&v=5.62" , data: { confirm: "НАЖМИТЕ ОК, ТОЛЬКО В ТОМ СЛУЧАЕ ЕСЛИ ВЫ РАРЕГИСТРИРОВАЛИСЬ vk.com СО СТРАНИЦЫ БОТА, КОТОРОГО ВЫ ХОТИТЕ АКТИВИРОВАТЬ" }, target: "_blank"
+        .li-box
+          = button_to t("bots.activate bot"), activate_bot_activate_path, class: "button-activete-bot", method: :get, params: {bot_id: bot.id}
+    -if bot.status == "Active"
+      li.user_items.user_line id="bot_#{bot.id}"
+        .li-box.bot-descript
+          = bot.description + t('users.bot status') + bot.status.to_s
+        .li-box
+          = link_to t('Edit'), edit_bot_path(bot), remote: true
+        .li-box
+          = link_to t('Destroy'), bot, data: { confirm: t('Are you sure') }, method: :delete, remote: true
+-else
+  p.descript-alert = t('users.have no bots')

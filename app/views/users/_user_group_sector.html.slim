@@ -1,0 +1,6 @@
+li.user_items#user_group_sector
+  .li-box.bot-descript
+    p = link_to @current_user.user_group.description, "https://vk.com/club" + @current_user.user_group.url, target: "_blank"
+  .li-box
+    = link_to t('Edit'), edit_user_group_path(@current_user.user_group.id), id: "edit_user_group_link", remote: true
+  .li-box

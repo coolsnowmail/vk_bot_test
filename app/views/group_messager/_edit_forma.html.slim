@@ -1,0 +1,14 @@
+.message_group_box
+  .message_group_content
+    .name_message_group_box
+      .message_group_lable =t('sent vk group')
+      .message_group_eq =@current_user.task.message_group.name
+    .vk_id_message_group_box
+      .message_group_lable =t('id vk group')
+      .message_group_eq =@current_user.task.message_group.vk_id
+  .message_group_button_edit
+    =link_to "Редактировать", edit_group_messager_path(@current_user.task.message_group.id), class: "button", id: "group_message_edit", remote: true
+
+
+h4#key_word_header =t('key_word_list')
+==render 'key_words/key_words_list'

@@ -1,0 +1,21 @@
+if(<%= @bot.persisted? %> ) {
+  $('#back').next().remove();
+  $('#back').remove();
+  $('#new_bot_link').show();
+  $('#boty').html( '<%= j render "users/bots_list" %>' );
+  $('#boty').show();
+  $('#bot_<%=@bot.id%>').animate({'background-color':'#114411'}, 500);
+  $('#bot_<%=@bot.id%>').animate({'background-color':'#E4F1FE'}, 500);
+};
+
+if(<%= @bot.persisted?%> == false) {
+  $('#back').next().remove();
+  $('#back').remove();
+  $('#new_bot_link').hide().after('<%= j render("form") %>');
+};
+
+
+
+
+
+

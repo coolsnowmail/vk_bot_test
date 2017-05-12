@@ -1,0 +1,10 @@
+.wraping
+  h4 = t('messages.New message')
+
+.alert
+  p#notice = notice
+
+.wraping
+  == render 'form'
+.links
+  = link_to t('Back'), messages_path

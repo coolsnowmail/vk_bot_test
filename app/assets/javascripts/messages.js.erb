@@ -1,0 +1,50 @@
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+
+var observer = new MutationObserver(function(mutations, observer) {
+  if ($("#message_group_back").length) {
+    $("#message_group_back").click(function() {
+      $('.message_group_box').show();
+      $("#message_group_forma").remove()
+      $("#message_group_back").remove()
+    });
+  };
+
+  if ($('#message_group_back_create').length) {
+    $('#message_group_back_create').click(function() {
+      $('#message_group_create').show();
+      $('#new_message_group').remove();
+      $('#message_group_back_create').remove();
+    });
+  };
+
+  if ($('#key_word_back').length) {
+    $('#key_word_back').click(function() {
+      $('#new_key_word').remove();
+      $('#key_word_back').remove();
+      $('#key_word_sector').show();
+    });
+  };
+
+  $('.key_word').hover(function(){
+    $(this).css("background-color", "#DCC6E0");
+    }, function(){
+    $(this).css("background-color", "#ffffff");
+  });
+});
+
+
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
+
+$(document).ready(function() {
+  $('.key_word').hover(function(){
+    $(this).css("background-color", "#DCC6E0");
+    }, function(){
+    $(this).css("background-color", "#ffffff");
+  });
+});
+
+
+

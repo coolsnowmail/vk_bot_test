@@ -1,0 +1,87 @@
+.alert
+  p#notice = notice
+
+ul class="admin-box"
+  li
+    span
+      strong = t("admin.admin vk id")
+    span
+      = @admin.vk_id
+    span
+      = link_to t('Edit'), edit_admin_path(@admin)
+
+  li
+    h4 class="admin-box__title" = t("admin.list of users")
+
+  li
+    p
+      span
+        strong =t("admin.name")
+      span
+        strong = t("admin.vk id")
+      span
+        strong = t("admin.user group")
+
+  -if @current_admin.users.any?
+    - @current_admin.users.each do |user|
+      li.user_line
+        p
+          span = user.name
+          span = link_to user.vk_id, "https://vk.com/id#{user.vk_id}", target: '_blank'
+          - if user.user_group
+            span = link_to user.user_group.description, "https://vk.com/club#{user.user_group.url}", target: '_blank'
+          - else
+            span =t("admin.user group is empty")
+
+
+          span = link_to t('Edit'), edit_user_path(user), class: "edit"
+          span = link_to t('Destroy'), user, data: { confirm: 'Are you sure?' }, method: :delete, class: "edit"
+  -else
+    li = t("admin.there are not any users")
+
+
+
+
+
+  li
+    p class="new_user" = link_to t('admin.New User'), new_user_path, id: "new_user"
+
+
+
+/ p
+/   strong = t("admin.admin vk id")
+/   = @admin.vk_id
+/   '|
+/   = link_to 'Edit', edit_admin_path(@admin)
+
+/ p
+/   strong = t("admin.list of users")
+
+/ table
+/   thead
+/     tr
+/       th =t("admin.Name")
+/       th =t("admin.vk id")
+/       th =t("admin.user group")
+/       th
+/       th
+
+/   tbody
+/     - @current_admin.users.each do |user|
+/       tr
+/         td = user.name
+/         td = link_to user.vk_id, "https://vk.com/id#{user.vk_id}"
+/         - if user.user_group
+/           td = link_to user.user_group.description, "https://vk.com/club#{user.user_group.url}"
+/         - else
+/           td =t("admin.user group is empty")
+
+/         td = link_to 'Edit', edit_user_path(user)
+/         td = link_to 'Destroy', user, data: { confirm: 'Are you sure?' }, method: :delete
+
+/ br
+
+/ = link_to t('admin.New User'), new_user_path
+
+
+

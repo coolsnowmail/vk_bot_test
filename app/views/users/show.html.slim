@@ -1,0 +1,22 @@
+.alert
+  p#notice = notice
+
+ul.user-ul
+  p.descript#user_group_field =t('users.my group')
+  == render 'user_group_sector'
+  p.descript#ffff =t('users.my task')
+  ==render 'user_task_sector'
+
+  div.descript =t('users.list of bots')
+  = link_to t('Create'), new_bot_path, id: "new_bot_link", remote: true
+
+  span#boty
+    == render 'bots_list'
+
+  -if @current_user.task.groups.first == nil
+    span.task-info
+      li.user_items = t('users.proccessing group') + t('users.no any group')
+  -if @current_user.task.groups.any? && @current_user.task.any_active_bot?
+    span.task-info#task_infor
+      ==render 'task_info'
+

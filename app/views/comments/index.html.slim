@@ -1,0 +1,20 @@
+.alert
+  p#notice = notice
+h4 = t('comments.Listing comments')
+
+ul.comments-box
+  - @comments.each do |comment|
+    li.comment-box id='comment_#{comment.id}'
+      .comment-description
+        span = comment.text
+      .comment-maneger
+        = link_to t('Edit'), edit_comment_path(comment)
+        = link_to t('Destroy'), comment, data: { confirm: t('Are you sure') }, method: :delete, remote: true
+
+.links
+  = link_to t('Create'), new_comment_path
+  '|
+  = link_to t('Back'), @current_user
+
+
+

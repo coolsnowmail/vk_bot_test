@@ -1,0 +1,12 @@
+if (<%= @key_word.persisted? %>) {
+  $('#new_key_word').remove();
+  $('#key_word_back').remove();
+  $('#key_word_sector').remove();
+  $('#key_word_header').hide().show().after('<%= j render("key_words/key_words_list") %>');
+};
+
+if (<%= @key_word.persisted? %> == false) {
+  $('#new_key_word').remove();
+  $('#key_word_back').hide().remove();
+  $('#key_word_header').after('<%= j render("form") %>');
+};

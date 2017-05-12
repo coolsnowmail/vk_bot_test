@@ -1,0 +1,9 @@
+div
+  -if flash[:alert]
+    p =flash[:alert]
+
+.wraping
+  == render 'form'
+
+.links
+  = link_to t('Back'), @current_user, class: "link_back"

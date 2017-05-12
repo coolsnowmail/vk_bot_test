@@ -1,0 +1,21 @@
+div class="session_header"
+  = link_to t("user enter"), login_url, method: :get
+
+div class="alert"
+  -if flash[:alert]
+    p =flash[:alert]
+
+div class="singup"
+  =form_tag do
+
+    h6 class="singup-title" = t('admin for')
+
+    .singup-field
+      lable= t('sessions.name')
+      = text_field_tag :name, params[:name]
+
+    .singup-field
+      lable = t('sessions.password')
+      = password_field_tag :password, params[:password]
+
+    .action-login =submit_tag t('sessions.enter'), class: "button-login"

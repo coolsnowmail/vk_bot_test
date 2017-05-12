@@ -1,0 +1,7 @@
+li.user_items#user_task_sector
+  .li-box.bot-descript
+    p = @current_user.task.description
+  .li-box
+    = link_to t('Edit'), edit_task_path(@current_user.task.id), remote: true
+  .li-box
+    = link_to t('users.task settings'), task_path(@current_user.task.id), remote: true

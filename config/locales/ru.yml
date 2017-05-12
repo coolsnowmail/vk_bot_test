@@ -1,0 +1,180 @@
+ru:
+  please checkin: 'Пожалуйста, пройдите авторитезацию'
+  exit done: "Выход выполнен"
+  wrong login or password: "Неверная комбинация имени и пароля"
+  messages list: "Cписок сообщений"
+  id vk group: "id vk.com группы: "
+  sent vk group: "Группа для отсылки сообщений: "
+  have no key word: "У вас нет ни одного ключевого слова"
+  key_word_list: "Список ключевых слов"
+  create message group: "У вас нет группы, пользователям которой будут отправляться сообщения. Без этого вы не сможете активировать бота!"
+  enter key words: "Назначьте ключевые слова, по которым бот будет искать людей из группы для отправки сообщений"
+  enter group for messages: "Чтобы активировать бота нужно создать группу куда будут отправяться сообщения"
+  name message group: "Веедите id группы vkcom, участники которой будут обрабатываться"
+  name message name: "Описание"
+  user notes: "Вы не можете одновременно зайти на сайт как пользователь и как администратор. Пожалуйста, выполните выход из страници пользователя!"
+  admin notes: "Вы не можете одновременно зайти на сайт как пользователь и как администратор. Пожалуйста, выполните выход из страници администратора!"
+  admin for: "Вы администратор?"
+  admin enter: "Войти как администратор"
+  user enter: "Войти как пользователь"
+  exit: "Выход"
+  Create: "Создать"
+  Show: "Показать"
+  Back: "Вернуться назад"
+  Are you sure: "Удалить? Вы уверены?"
+  Destroy: "удалить"
+  Edit: "редактировать"
+  save_button: "Сохранить"
+  admin:
+    password: "Новый пароль"
+    confirm password: "Подтвердить пароль"
+    there are not any users: "У Вас нет ни одного пользователя"
+    cannot delete admin: "Нельзя удалить администратора"
+    admin vk id: "Ваш ID ВКОНТАКТЕ: "
+    list of users: "Список ваших пользователей: "
+    name: "Логин"
+    vk id: "vk id"
+    user group: "Группа пользователя"
+    New User: "Новый пользователь"
+    user group is empty: "отсутствует"
+  sessions:
+    name: "Логин:"
+    password: "Пароль:"
+    authorize pls: "Пройдите авторизацию"
+    enter: "Войти"
+  users:
+    User was successfully updated: 'Пользователь обновлен'
+    User was successfully destroyed: 'Пользователь удален'
+    User was successfully created: 'Пользователь создан'
+    task settings: "Настройка задачи"
+    my group: "Моя группа"
+    my task: "Моя задача"
+    name: "Логин"
+    vk id: "vk id"
+    have no bots: "У вас нет ни одного бота"
+    no any group: "Вы не вписали еще ни одной группы"
+    proccessing group: "Группа в обработке: "
+    list of bots: "Список ботов"
+    bot status: " - статус: "
+    enter_your_vk_group: "Чтобы продолжить занесите данные своей группы ВКОНТАКТЕ в форму"
+    like count: "Лайков поставленно: "
+    comment count: "Отправленно комментариев: "
+    message count: "Написанно сообщений: "
+  user_groups:
+    url: "ID вашей группы ВКОНТАКТЕ"
+    description: "Придумайте описание группы"
+    successfully created: "Группа создана"
+    successfully destroyed: "Группа удаленна"
+    successfully updated: "Группа обновленна"
+  tasks:
+    enter your group: "Скопируйте ссылку на группу вконтакте, члены которой, вы хотите пролайкать. Не менее 2-х групп"
+    enter your message: "Придумайте текст сообщения, который будет отправляться в пользователям группы. Сообщений дожно быть больше одного"
+    enter your comment: "Придумайте и запишите комментарий, который будет отправляться в группы пиара. Комментариев дожно быть больше одного"
+    description: "Введите название задачи"
+    task created: "Задача создана"
+    enter your task: "Придумайте название задачи"
+    task updated: "Задача обновленна"
+    successfully destroyed: "Задача удаленна"
+    messages settings: "Настройка сообщений для ботов"
+    comments settings: "Настройка коментариев для ботов"
+    groups settings: "Настройка групп поиска для ботов"
+    bots settings: "Настройка ботов"
+  bots:
+    password_vk: "Пароль бота ВКОНТАКТЕ"
+    login_vk: "Логин бота ВКОНТАКТЕ"
+    access_token: "access_token"
+    description: "Имя бота"
+    activate error: "Данный бот уже зарегистрированн в системе"
+    bot activated: "Бот активирован"
+    access token error: "Неверный access token. Пожалуйста, исправте access token бота ВКОНТАКТЕ"
+    params error: "Неправильный ID бота"
+    activate bot: "Активировать бота"
+    Create: "Создать бота"
+    create a new bot: "Чтобы все заработало неодходимо создать бота!"
+    was successfully created: "Бот создан"
+    was successfully updated: "Бот обновлен"
+    was successfully destroyed: "Бот удален"
+  comments:
+    edit comment: "Редактировать комметарий"
+    New comment: "Новый коментарий"
+    Listing comments: "Мои коментарии"
+    create a new comment: "Чтобы все заработало неодходимо создать комметарий для бота, которые будут отправляться сообветствующую группу с просьбой о вступлении в ваше сообшество!"
+    was successfully created: "Комментарий создана"
+    was successfully updated: "Комментарий обновлен"
+    was successfully destroyed: "Комментарий удален"
+  groups:
+    wrong link: "Ссылка не корректна. Пожалуйста, проверте правильность ссылки на группу"
+    url: "vk id группы, члены которой, вы хотите, были пролайканы"
+    editing_group: "Редактирование группы"
+    Listing groups: "Списов групп для обработки лайкими"
+    New group: "Сохраните ссылки на группу ВКОНТАКТЕ, члены которой, вы хотите, были пролайканы"
+    create a new group: "Чтобы все заработало неодходимо выбрать группы ВКОНТАКТЕ для работы бота!"
+    was successfully created: "Группа создана"
+    was successfully updated: "Группа обновленна"
+    was successfully destroyed: "Группа удаленна"
+  messages:
+    New message: "Создать новое сообщение"
+    Editing message: "Редактирование сообщения"
+    Listing messages: "Список сообщений, одно из которых будет отправляться прользателям vk.com, найденных в группе БИЗНЕС-МОЛОДОСТЬ, по вашему алгомитму"
+    was successfully created: "Сообщение создано"
+    was successfully updated: "Сообщение обновленно"
+    was successfully destroyed: "Сообщение удаленно"
+    create a new message: "Чтобы все заработало неодходимо придумать хотябы пару сообщений, которые будут отправляться людям для репламмы вашего сообщества!"
+  activerecord:
+    errors:
+      models:
+        admin:
+          attributes:
+            password_confirmation:
+              confirmation: "is not found"
+        bot:
+          attributes:
+            description:
+              too_short: "Слишком короткое навание для бота"
+              too_long: "Слишком длиное навание для бота"
+              taken: "У Вас уже есть бот с таким названием"
+              blank: "Бот не может быть без имени"
+            access_token:
+              taken: "У Вас уже есть бот с таким access token"
+              too_short: "Слишком короткий access_token"
+        comment:
+          attributes:
+            text:
+              too_long: "Слишком большой комментарий"
+              blank: "Вы не можете создать пустой комментарий"
+        message:
+          attributes:
+            text:
+              too_long: "Слишком большое сообщение"
+              blank: "Вы не можете создать пустое сообщение"
+        task:
+          attributes:
+            description:
+              blank: "Вы не можете создать задачу без названия"
+        user_group:
+          attributes:
+            description:
+              blank: "Вы не можете оставить группу без названия"
+            url:
+              blank: "Вы не можете оставить группу id vk.com"
+              not_a_number: "ID группы должно состоять только из числовых значений"
+        group:
+          attributes:
+            url:
+              not_a_number: "id может состоять только из чисел"
+              too_short: "Слишком короткое id"
+              too_long: "Слишком длиное id"
+              blank: "Вы не можете оставить это поле пустым"
+        message_group:
+          attributes:
+            name:
+              blank: "Вы не можете оставить группу без названия"
+              too_long: "Слишком большое описание"
+            vk_id:
+              blank: "Введите id группы vkcom участники которой будут получать сообщения"
+              too_long: "Слишком большое id"
+        key_word:
+          attributes:
+            word:
+              blank: "Вы не можете оставить поле пустым"
+              too_long: "Слишком большое слово"

@@ -1,0 +1,10 @@
+.alert
+  p#notice = notice
+
+-if flash[:alert]
+  .wraping
+    .alert
+      p =flash[:alert]
+
+.wraping
+  == render 'for_new'

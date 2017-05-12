@@ -1,0 +1,12 @@
+.alert
+  - if @message.errors.any?
+    #error_explanation
+      ul
+        - @message.errors.full_messages.each do |message|
+          li = message
+
+= form_for @message, html: {class: "forma"} do |f|
+  .field
+    = f.label :text
+    = f.text_area :text, rows: 20, cols: 45
+  .actions = f.submit t('Create'), class: "button"

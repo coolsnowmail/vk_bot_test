@@ -1,0 +1,13 @@
+if( <%= @user_group.valid? %> ) {
+  $('#backyyy').next().remove();
+  $('#backyyy').remove();
+  $('#user_group_sector').remove();
+  $('#user_group_field').after('<%= j render("users/user_group_sector") %>');
+};
+
+if(<%= @user_group.valid? %> == false) {
+  $('#backyyy').next().remove();
+  $('#backyyy').remove();
+  $('#user_group_sector').hide();
+  $('#user_group_field').after('<%= j render("form") %>');
+};

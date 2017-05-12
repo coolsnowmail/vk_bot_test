@@ -1,0 +1,27 @@
+.wraping
+  .back_conteiner
+    #message_group_back <<<<<
+
+
+  = form_for @message_group, url: {action: "update"}, html: {class: "forma", id: "message_group_forma"}, remote: true do |f|
+
+    .alert
+    - if @message_group.errors.any?
+      #error_explanation
+        ul
+          - @message_group.errors.full_messages.each do |message|
+            li = message
+
+    .field
+      = f.label t("name message name")
+      = f.text_field :name
+
+    .field
+      = f.label t("name message group")
+      = f.text_field :vk_id
+
+    .action
+      = f.submit t('Create'), class: "button"
+
+
+

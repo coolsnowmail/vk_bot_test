@@ -1,0 +1,2 @@
+module ActivateBotHelper
+end

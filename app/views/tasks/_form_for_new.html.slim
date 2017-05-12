@@ -1,0 +1,12 @@
+= form_for @task, html: {class: "forma"} do |f|
+  .alert
+    - if @task.errors.any?
+      #error_explanation
+        ul
+          - @task.errors.full_messages.each do |message|
+            li = message
+
+  .field
+    = f.label t('tasks.description')
+    = f.text_field :description
+  .actions = f.submit t('save_button'), class: "button"

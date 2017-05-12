@@ -1,0 +1,151 @@
+$(document).ready(function() {
+  if ($('#task_infor').length) {
+    setInterval(function(){
+      $.ajax({
+      url: "http://localhost:3000/refresh_part",
+      type: "POST"
+      });
+      }, 20000);
+  };
+
+  $('.user_line').hover(function(){
+    $(this).css("background-color", "#DCC6E0");
+    }, function(){
+    $(this).css("background-color", "#E4F1FE");
+  });
+});
+
+$(document).bind('DOMSubtreeModified', function () {
+//   if ($("#backyyy").length) {
+//     $("#backyyy").click(function() {
+//       $('#backyyy').next().remove();
+//       $('#user_group_sector').show();
+//       $('#backyyy').remove();
+//     });
+//   };
+
+//   if($('#back').length) {
+//     $('#back').click(function() {
+//       $('#back').next().remove();
+//       $('#new_bot_link').show();
+//       $('#back').remove();
+//     });
+//   };
+
+//   if($('#task_back').length) {
+//     $('#task_back').click(function() {
+//       $('#task_back').next().remove();
+//       $('#user_task_sector').show();
+//       $('#task_back').remove();
+//     });
+//   };
+
+//   if($('#task_settings_back').length) {
+//     $('#task_settings_back').click(function() {
+//       $('#task_settings_back').next().next().remove();
+//       $('#task_settings_back').next().remove();
+//       $('#user_task_sector').show();
+//       $('#task_settings_back').remove();
+//     });
+//   };
+
+//   $('.user_line').hover(function(){
+//     $(this).css("background-color", "#DCC6E0");
+//     }, function(){
+//     $(this).css("background-color", "#E4F1FE");
+//   });
+  if ($("#backyyy").length) {
+    $("#backyyy").click(function() {
+      $('#backyyy').next().remove();
+      $('#user_group_sector').show();
+      $('#backyyy').remove();
+    });
+  };
+
+  if($('#back').length) {
+    $('#back').click(function() {
+      $('#back').next().remove();
+      $('#new_bot_link').show();
+      $('#boty').show();
+      $('#back').remove();
+    });
+  };
+
+  if($('#task_back').length) {
+    $('#task_back').click(function() {
+      $('#task_back').next().remove();
+      $('#user_task_sector').show();
+      $('#task_back').remove();
+    });
+  };
+
+  if($('#task_settings_back').length) {
+    $('#task_settings_back').click(function() {
+      $('#task_settings_back').next().next().remove();
+      $('#task_settings_back').next().remove();
+      $('#user_task_sector').show();
+      $('#task_settings_back').remove();
+    });
+  };
+
+  $('.user_line').hover(function(){
+    $(this).css("background-color", "#DCC6E0");
+    }, function(){
+    $(this).css("background-color", "#E4F1FE");
+  });
+});
+
+
+
+
+
+
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+
+var observer = new MutationObserver(function(mutations, observer) {
+  if ($("#backyyy").length) {
+    $("#backyyy").click(function() {
+      $('#backyyy').next().remove();
+      $('#user_group_sector').show();
+      $('#backyyy').remove();
+    });
+  };
+
+  if($('#back').length) {
+    $('#back').click(function() {
+      $('#back').next().remove();
+      $('#new_bot_link').show();
+      $('#boty').show();
+      $('#back').remove();
+    });
+  };
+
+  if($('#task_back').length) {
+    $('#task_back').click(function() {
+      $('#task_back').next().remove();
+      $('#user_task_sector').show();
+      $('#task_back').remove();
+    });
+  };
+
+  if($('#task_settings_back').length) {
+    $('#task_settings_back').click(function() {
+      $('#task_settings_back').next().next().remove();
+      $('#task_settings_back').next().remove();
+      $('#user_task_sector').show();
+      $('#task_settings_back').remove();
+    });
+  };
+
+  $('.user_line').hover(function(){
+    $(this).css("background-color", "#DCC6E0");
+    }, function(){
+    $(this).css("background-color", "#E4F1FE");
+  });
+});
+
+
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
