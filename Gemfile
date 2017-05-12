@@ -48,3 +48,4 @@ gem 'factory_girl_rails'
 gem 'figaro'
 gem 'rubocop', require: false
 gem 'slim-rails'
+gem 'web-console', '~> 2.0'
