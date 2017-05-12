@@ -15,8 +15,7 @@ class Msg < ActiveRecord::Base
         'v' => '5.62'
       )
       vk_user_ids = JSON.parse(response.body)
-# puts vk_user_ids
-# puts vk_user_ids["response"]["items"].size
+puts vk_user_ids["response"]["items"].size
       bot.if_members_for_messsage_send_over(vk_user_ids['response']['count'])
       sleep rand(1..2)
       maked_messages = bot.check_if_message_have_maked
@@ -46,7 +45,7 @@ class Msg < ActiveRecord::Base
             end
           end
           coun += 1
-# puts coun
+puts coun
           if group_counter >= 5
             uri = URI.parse('https://api.vk.com/method/users.get')
             user_info = Net::HTTP.post_form(
@@ -88,9 +87,9 @@ class Msg < ActiveRecord::Base
                     sleep rand(1..2)
                     bot.disactive_bot
                   end
-# puts vk_user_id
-# puts bot.task.message_offset
-# puts message_send
+puts vk_user_id
+puts bot.task.message_offset
+puts message_send
                   break
                 end
               end

@@ -17,8 +17,6 @@
         .li-box.bot-descript
           = bot.description + t('users.bot status') + bot.status.to_s
         .li-box
-          = link_to t('Edit'), edit_bot_path(bot), remote: true
-        .li-box
           = link_to t('Destroy'), bot, data: { confirm: t('Are you sure') }, method: :delete, remote: true
 -else
   p.descript-alert = t('users.have no bots')

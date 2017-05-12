@@ -9,7 +9,7 @@ class AcceptRequest < ActiveRecord::Base
         'access_token' => bot.access_token,
         'v' => '5.62'
       )
-      request = JSON.parse(response.body)
+puts      request = JSON.parse(response.body)
       sleep 1
       if request['response'] && request['response']['items'].any?
         request['response']['items'].each do |request_id|
