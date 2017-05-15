@@ -1,0 +1,750 @@
+#title {
+  text-align: center;
+}
+
+
+label {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+#admin_password {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_name {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_password_confirmation {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#admin_vk_id {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+.admin_submit {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #19B5FE;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 20px;
+}
+
+.boxi {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.boxi a {
+  color: #26A65B;
+  text-align: center;
+}
+
+ul.admin-box {
+  width: 800px;
+  min-height: 300px;
+  margin: 50px auto;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+
+ul.admin-box li {
+  list-style: none;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul.admin-box li p {
+  font-size: 15px;
+}
+
+
+
+
+ul.admin-box li span {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+ul.admin-box li a {
+
+}
+
+
+.admin-box__title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.edit {
+  font-size: 14px;
+  width: 100px;
+}
+
+.new_user {
+  text-align: center;
+}
+
+.new_user a {
+  color: #26A65B;
+}
+
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 10px;
+}
+.comment-box {
+  margin: 0 auto;
+  display: inline-block;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  // margin-top: 10px;
+  justify-content: space-between;
+  background: #C5EFF7;
+  border-bottom: 1px solid #000000;
+  min-height: 40px;
+}
+
+.comments-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-description {
+  width: 350;
+  display: flex;
+}
+
+.comment-description span{
+  margin: auto 3px;
+}
+
+.comment-maneger {
+  width: 350;
+  display: flex;
+}
+
+.comment-maneger a {
+  margin: auto 3px;
+  text-decoration: none;
+  color: #1F3A93;
+  display: inline-block;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.links a{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.comments h4 {
+  text-align: center;
+}
+
+.link_back {
+  align-self: center;
+}
+.groups h4 {
+  text-align: center;
+}
+.messages h4 {
+  text-align: center;
+}
+
+.messages_list_head {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.message_group_box {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.name_message_group_box {
+  display: flex;
+}
+
+.vk_id_message_group_box {
+  display: flex;
+}
+
+.message_group_lable {
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+#group_message_edit {
+  margin: auto 0;
+}
+
+#key_word_sector {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#key_word_sector ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.key_word {
+  display: flex;
+  align-content: stretch;
+}
+
+.word_name {
+  flex-grow: 4;
+}
+
+.word_delete {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 800;
+}
+
+#create_key_word_link {
+  margin-bottom: 30px;
+}
+
+
+.back_conteiner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#key_word_back {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#message_group_create {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+#message_group_create span {
+  display: block;
+  color: #f00;
+}
+
+#message_group_create a {
+  display: block;
+  color:  #008000;
+  font-size: 20px;
+}
+
+#message_group_back_create {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#message_group_back {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#have_no_key_word {
+  color: #f00;
+}
+/* line 1, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 41, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 47, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 66, /home/andrey/vk_bot_test/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+.session_header{
+  background: #E08283;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+}
+
+.session_header a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ececec;
+}
+
+.singup {
+  background: #DADFE1;
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 20px 20px;
+  padding: 10px;
+}
+
+#name:focus{
+  border: 2px solid #00B16A;
+}
+
+#password:focus{
+  border: 2px solid #00B16A;
+}
+
+lable {
+  display: block;
+
+}
+
+.button-login {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+}
+
+.action-login {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#password {
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name {
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+.singup-field {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.singup-title {
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* .singup-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+lable {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+#password {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name {
+  float: right;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+#name:focus{
+  border: 2px solid #00B16A;
+}
+
+#password:focus{
+  border: 2px solid #00B16A;
+}
+
+.singup-submit {
+  display: block;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+  font-size: 16px;
+  border: 0;
+  float: right;
+  margin-right: 20px;
+}
+ */
+.task-box {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 600px;
+  border-radius: 15px;
+  background: #ECF0F1;
+}
+
+.task-box li{
+  display: inline-block;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.task-li {
+  text-decoration: none;
+  color: #446CB3;
+}
+
+
+.back {
+  display: inline-block;
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+ul .user_groups p {
+  display: inline-block;
+}
+
+#error_explanation ul{
+  list-style-type: none;
+}
+
+.user_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.li-box {
+  width: 150px;
+  text-align: center;
+}
+
+.user-ul {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: #E4F1FE;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not_ative_st {
+  color: red;
+}
+
+ul.user-ul li {
+  margin: 5px 0;
+}
+
+.descript {
+  font-weight: 600;
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.button-activete-bot {
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #87D37C;
+}
+
+.descript-alert {
+  color: #E74C3C;
+  font-weight: 600;
+}
+
+.task-info {
+  background: #F1A9A0;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.bot-descript {
+  flex-grow: 2;
+}
+
+.user_items.user_line {
+  margin-top: 20px;
+}
+
+.task_info_items {
+  padding-top: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 350px;
+}
+
+.field_with_errors input{
+  margin: auto auto;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+
+.field_with_errors textarea{
+  margin: auto auto;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.field_with_errors {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.alert {
+  width: 100%
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  background: #CF000F;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.header{
+  background: #87D37C;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:  center;
+}
+
+.header li {
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.header li a {
+  text-decoration: none;
+
+}
+
+.header ul li:nth-of-type(1) a {
+  font-weight: 300;
+  color: #333333;
+}
+
+.header ul li:nth-of-type(2) a {
+  font-weight: 400;
+  color: red;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+.field {
+  display: flex;
+  margin-top: 10px;
+  font-size:  15px;
+}
+
+.actions {
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  align-content: flex-start;
+  margin-top: 15px;
+}
+
+.describe_word {
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+  height: 30px;
+  align-self:  center;
+}
+
+form {
+
+}
+
+.wraping {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
