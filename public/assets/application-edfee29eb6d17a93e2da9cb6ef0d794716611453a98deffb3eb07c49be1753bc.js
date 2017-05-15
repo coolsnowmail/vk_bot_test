@@ -13391,7 +13391,7 @@ $(document).ready(function() {
   if ($('#task_infor').length) {
     setInterval(function(){
       $.ajax({
-      url: "http://localhost:3000/refresh_part",
+      url: "https://vk-bot-test.herokuapp.com/refresh_part",
       type: "POST"
       });
       }, 20000);
