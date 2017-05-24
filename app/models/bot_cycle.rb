@@ -4,21 +4,21 @@ class BotCycle < ActiveRecord::Base
     bot = Bot.find_by(id: bot_id)
     if bot
       Like.make(bot_id)
-      # puts "like"
+      puts "like"
       Msg.make(bot_id)
-      # puts "message"
+      puts "message"
       Like.make(bot_id)
-      # puts "like"
+      puts "like"
       Com.make(bot_id)
-      # puts "comment"
+      puts "comment"
       Like.make(bot_id)
-      # puts "like"
+      puts "like"
       ResendMessage.make(bot_id)
-      # puts "resent"
+      puts "resent"
       AcceptRequest.make(bot_id)
-      # puts "accessept"
+      puts "accessept"
       Post.make(bot_id)
-      # puts "repost"
+      puts "repost"
     end
   end
 end

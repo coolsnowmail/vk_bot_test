@@ -15,7 +15,7 @@ class Bot < ActiveRecord::Base
 
   def if_members_over(members_count)
     task.groups.first.destroy if task.like_trakings \
-                                     .where(bot_id: id) \
+                                     .where(vk_group_id: task.groups.first.url) \
                                      .count >= members_count
   end
 

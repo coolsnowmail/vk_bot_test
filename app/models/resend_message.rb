@@ -1,4 +1,6 @@
 # resend all messages to user any bot was send
+require 'net/http'
+
 class ResendMessage < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)

@@ -1,3 +1,5 @@
+require 'net/http'
+
 class ActivateBotController < ApplicationController
   skip_before_action :authorize_admin
   def activate
@@ -5,9 +7,9 @@ class ActivateBotController < ApplicationController
     return redirect_to user_path(@current_user), notice: t('bots.params error') unless bot
     return redirect_to user_path(@current_user), notice: t('enter group for messages') unless bot.task.message_group
     return redirect_to user_path(@current_user), notice: t('enter key words') unless bot.task.message_group.key_words.any?
-puts 1111111111111111111111111111111111111111
-puts    vk_id = check_token(bot)
-puts 1111111111111111111111111111111111111111
+# puts 1111111111111111111111111111111111111111
+    vk_id = check_token(bot)
+# puts 1111111111111111111111111111111111111111
     return redirect_to user_path(@current_user), notice: t('bots.access token error') unless vk_id['response']
     return redirect_to user_path(@current_user), notice: t('bots.access token error') unless vk_id['response'].any?
     if vk_id['response']

@@ -1,4 +1,6 @@
 # do vk post from vk group to bot wall
+require 'net/http'
+
 class Post < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)
@@ -7,7 +9,7 @@ class Post < ActiveRecord::Base
       response = Net::HTTP.post_form(
         uri,
         'owner_id' => "-#{bot.task.user.user_group.url}",
-        'offset' => 0,
+        'offset' => 1,
         'count' => 1,
         'filter' => 'owner',
         'access_token' => bot.access_token,

@@ -1,4 +1,6 @@
 # looks for vk_user and send him message
+require 'net/http'
+
 class Msg < ActiveRecord::Base
   def self.make(bot_id)
     coun = 0

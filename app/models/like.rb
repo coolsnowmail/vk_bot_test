@@ -1,4 +1,6 @@
 # bot make likes
+require 'net/http'
+
 class Like < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)
@@ -8,7 +10,7 @@ class Like < ActiveRecord::Base
         response = Net::HTTP.post_form(
           uri,
           'user_id' => bot.task.user.vk_id,
-          'message' => "У бота № #{bot.id} юзера #{bot.task.user.name} закончились группы для лайков. Срочно добавте новвы гуппы",
+          'message' => "У бота № #{bot.id} юзера #{bot.task.user.name} закончились группы для лайков. Срочно добавте новвы группы",
           'access_token' => bot.access_token,
           'v' => '5.62'
         )
@@ -50,8 +52,9 @@ class Like < ActiveRecord::Base
             end
 # puts response
             sleep rand(1..3)
-            photo_id = response['response'].first['photo_id']
-            if photo_id
+            # photo_id = response['response'].first['photo_id']
+            if response['response'].first['photo_id']
+              photo_id = response['response'].first['photo_id']
               photo_id = photo_id.split('_').second
               uri = URI.parse('https://api.vk.com/method/likes.add')
               response = Net::HTTP.post_form(

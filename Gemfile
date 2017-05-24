@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'bundler'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -40,7 +41,6 @@ group :test, :development do
   gem 'rspec-rails', '~> 3.0'
   gem 'shoulda-callback-matchers', '~> 1.1.1'
   gem 'diff-lcs', '< 2.0'
-  gem 'web-console', '~> 2.0'
 end
 
 gem 'spring'
@@ -49,3 +49,6 @@ gem 'figaro'
 gem 'rubocop', require: false
 gem 'slim-rails'
 gem 'web-console', '~> 2.0'
+gem 'whenever', require: false
+gem 'rake', '~> 12.0'
+

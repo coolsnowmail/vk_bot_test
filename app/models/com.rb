@@ -1,4 +1,6 @@
 # makes comment in one of a bot's group
+require 'net/http'
+
 class Com < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)

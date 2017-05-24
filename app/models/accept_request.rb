@@ -1,4 +1,6 @@
 # accept all friend request to bot
+require 'net/http'
+
 class AcceptRequest < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)

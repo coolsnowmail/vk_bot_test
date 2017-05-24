@@ -4,7 +4,7 @@ class BotRun < ActiveRecord::Base
     Bot.all.each do |bot|
       if bot.status == 'Active'
         BotCycle.make(bot.id)
-        sleep 120
+        sleep 100
       end
     end
   end
