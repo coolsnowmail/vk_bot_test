@@ -24,7 +24,7 @@ set :output, "/home/andrey/vk_bot_test/cron_log.log"
 #   command "cd /home/andrey/vk_bot_test && rake post:doing"
 # end
 
-every 30.minutes do
+every :hour do
   command "cd /home/andrey/vk_bot_test && rake bots_run:go"
 end
 

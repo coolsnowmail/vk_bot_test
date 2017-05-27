@@ -13,10 +13,20 @@ class Bot < ActiveRecord::Base
     last_like_traking ? last_like_traking.offset + 1 : 0
   end
 
+  # def restart_count_likes
+  #   last_like_traking = task.like_trakings.order(created_at: :desc).first
+  #   last_like_traking.update(offset: nil)
+  # end
+
   def if_members_over(members_count)
-    task.groups.first.destroy if task.like_trakings \
-                                     .where(vk_group_id: task.groups.first.url) \
-                                     .count >= members_count
+    # task.groups.first.destroy if task.like_trakings \
+    #                                  .where(vk_group_id: task.groups.first.url) \
+    #                                  .count >= members_count
+
+    if task.like_trakings.where(vk_group_id: task.groups.first.url).count >= members_count
+      task.groups.first.destroy
+      task.like_trakings.order(created_at: :desc).first.update(offset: nil)
+    end
   end
 
   def check_like_limit
