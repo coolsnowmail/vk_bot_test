@@ -7,18 +7,22 @@ class BotCycle < ActiveRecord::Base
       # puts "like"
       # Msg.make(bot_id)
       # puts "message"
-      Like.make(bot_id)
+      LikeUp.make(bot_id)
       puts "like"
       Com.make(bot_id)
       puts "comment"
-      Like.make(bot_id)
+      LikeUp.make(bot_id)
       puts "like"
       ResendMessage.make(bot_id)
       puts "resent"
       AcceptRequest.make(bot_id)
       puts "accessept"
+      LikeUp.make(bot_id)
+      puts "like"
       Post.make(bot_id)
       puts "repost"
+      puts "----------------------------------"
+      puts "----------------------------------"
     end
   end
 end

@@ -33,3 +33,215 @@ resent
 {"response"=>{"count"=>2, "items"=>[246718027, 275811049]}}
 accessept
 repost
+rake aborted!
+Errno::EHOSTUNREACH: Failed to open TCP connection to api.vk.com:443 (No route to host - connect(2) for "api.vk.com" port 443)
+/home/andrey/vk_bot_test/app/models/like.rb:21:in `make'
+/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
+/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
+Errno::EHOSTUNREACH: No route to host - connect(2) for "api.vk.com" port 443
+/home/andrey/vk_bot_test/app/models/like.rb:21:in `make'
+/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
+/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
+Tasks: TOP => bots_run:go
+(See full trace by running task with --trace)
+like
+comment
+like
+resent
+{"response"=>{"count"=>2, "items"=>[432143398, 433581927]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[140296111]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>2, "items"=>[433529065, 106420900]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[329610495]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[417481493]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[87613275]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[416551658]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+rake aborted!
+NoMethodError: undefined method `[]' for nil:NilClass
+/home/andrey/vk_bot_test/app/models/like.rb:32:in `make'
+/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
+/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
+/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
+Tasks: TOP => bots_run:go
+(See full trace by running task with --trace)
+like
+comment
+like
+resent
+{"response"=>{"count"=>0, "items"=>[]}}
+accessept
+repost
+like
+comment
+like
+resent
+{"response"=>{"count"=>1, "items"=>[180530794]}}
+accessept
+repost
