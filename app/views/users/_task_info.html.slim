@@ -3,9 +3,6 @@ li.user_items
   = link_to "https://vk.com/club#{@current_user.task.groups.first.url.to_s}", "https://vk.com/club#{@current_user.task.groups.first.url.to_s}", target: :blank
 li.user_items.task_info_items
   = t('users.like count')
-  div = @current_user.like_count
-li.user_items.task_info_items
-  = t('users.message count')
   div = @current_user.message_count
 li.user_items.task_info_items
   = t('users.comment count')

@@ -1,247 +1,774 @@
+1000
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+{"response"=>[{"id"=>390554973, "first_name"=>"Алиса", "last_name"=>"Тянгик", "city"=>{"id"=>26, "title"=>"Белгород"}, "photo_id"=>"390554973_456242965", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>52, "audios"=>0, "notes"=>0, "photos"=>38, "gifts"=>26, "friends"=>61, "online_friends"=>10, "mutual_friends"=>0, "followers"=>21, "subscriptions"=>1, "pages"=>219}}]}
+14
+15
+16
+17
+{"response"=>[{"id"=>390537799, "first_name"=>"Hero", "last_name"=>"Hero", "city"=>{"id"=>5331, "title"=>"Los Angeles"}, "photo_id"=>"390537799_456240071", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>261, "audios"=>0, "notes"=>0, "photos"=>2, "gifts"=>3, "friends"=>22, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>22, "subscriptions"=>0, "pages"=>234}}]}
+18
+19
+20
+{"response"=>[{"id"=>390530637, "first_name"=>"Надежда", "last_name"=>"Станиславовна", "photo_id"=>"390530637_436038730", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>27, "audios"=>0, "notes"=>0, "photos"=>7, "groups"=>46, "gifts"=>0, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>35}}]}
+21
+22
+23
+24
+25
+{"response"=>[{"id"=>390519569, "first_name"=>"Салтанат", "last_name"=>"Кадырова", "photo_id"=>"390519569_436678179", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>2, "groups"=>303, "gifts"=>1, "friends"=>12, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>263}}]}
+26
+{"response"=>[{"id"=>390517188, "first_name"=>"Романенко", "last_name"=>"Юлия", "photo_id"=>"390517188_440282628", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "groups"=>341, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>10, "subscriptions"=>0, "pages"=>322}}]}
+27
+28
+{"response"=>[{"id"=>390505304, "first_name"=>"Aisel", "last_name"=>"Iskanderli", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>2, "audios"=>0, "notes"=>0, "photos"=>6, "friends"=>38, "online_friends"=>10, "mutual_friends"=>0, "followers"=>13, "subscriptions"=>0, "pages"=>508}}]}
+29
+30
+31
+{"response"=>[{"id"=>390501702, "first_name"=>"Екатерина", "last_name"=>"Акимова", "city"=>{"id"=>1, "title"=>"Москва"}, "photo_id"=>"390501702_456239291", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>8, "audios"=>192, "notes"=>0, "photos"=>4, "friends"=>36, "online_friends"=>3, "mutual_friends"=>0, "followers"=>6, "subscriptions"=>0, "pages"=>25}}]}
+4
+6
+36
+32
+33
+34
+{"response"=>[{"id"=>390480854, "first_name"=>"Rahmet", "last_name"=>"Rahmet", "city"=>{"id"=>3193, "title"=>"Шымкент"}, "photo_id"=>"390480854_456241290", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>23, "audios"=>275, "notes"=>0, "photos"=>2, "groups"=>270, "gifts"=>2, "friends"=>10, "online_friends"=>1, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>4, "pages"=>260}}]}
+35
+{"response"=>[{"id"=>390466742, "first_name"=>"Albertine", "last_name"=>"Kayip", "city"=>{"id"=>14, "title"=>"Астана"}, "photo_id"=>"390466742_456239018", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>2, "notes"=>0, "photos"=>3, "groups"=>214, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>13, "subscriptions"=>1, "pages"=>199}}]}
+36
+37
+38
+39
+40
+41
+42
+{"response"=>[{"id"=>390433622, "first_name"=>"Артур", "last_name"=>"Дубровский", "photo_id"=>"390433622_456239201", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>11, "audios"=>0, "notes"=>0, "photos"=>2, "friends"=>4, "online_friends"=>1, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>63}}]}
+43
+44
+{"response"=>[{"id"=>390417040, "first_name"=>"Ardak", "last_name"=>"Tukeshov", "photo_id"=>"390417040_456239092", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>22, "audios"=>91, "notes"=>0, "photos"=>21, "gifts"=>0, "friends"=>140, "online_friends"=>17, "mutual_friends"=>0, "followers"=>9, "subscriptions"=>0, "pages"=>35}}]}
+45
+46
+47
+{"response"=>[{"id"=>390406720, "first_name"=>"Юля", "last_name"=>"Андрійчук", "photo_id"=>"390406720_456239494", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>32, "audios"=>51, "notes"=>0, "photos"=>45, "groups"=>404, "gifts"=>5, "friends"=>154, "online_friends"=>9, "mutual_friends"=>0, "user_photos"=>0, "followers"=>18, "subscriptions"=>28, "pages"=>294}}]}
+48
+49
+{"response"=>[{"id"=>390402987, "first_name"=>"Эля", "last_name"=>"Кушнир", "city"=>{"id"=>105, "title"=>"Орёл"}, "photo_id"=>"390402987_456239173", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>11, "audios"=>1, "notes"=>0, "photos"=>175, "groups"=>238, "gifts"=>12, "friends"=>75, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>13, "subscriptions"=>1, "pages"=>152}}]}
+50
+51
+{"response"=>[{"id"=>390398987, "first_name"=>"Masha", "last_name"=>"Magomedova", "city"=>{"id"=>1, "title"=>"Москва"}, "photo_id"=>"390398987_456241938", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>6, "audios"=>23, "notes"=>0, "photos"=>6, "groups"=>594, "gifts"=>60, "friends"=>108, "online_friends"=>12, "mutual_friends"=>0, "user_photos"=>0, "followers"=>23, "subscriptions"=>36, "pages"=>482}}]}
+6
+23
+108
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+{"response"=>[{"id"=>390322825, "first_name"=>"Ларочка", "last_name"=>"Цветочек", "photo_id"=>"390322825_456239177", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>21, "groups"=>87, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>66}}]}
+63
+64
+65
+{"response"=>[{"id"=>390310713, "first_name"=>"Nikita", "last_name"=>"Bristol-Academy", "city"=>{"id"=>1925548, "title"=>"Kuala Lumpur"}, "photo_id"=>"390310713_438002380", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>6, "photos"=>10, "groups"=>196, "gifts"=>0, "friends"=>365, "online_friends"=>26, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>348, "pages"=>149}}]}
+66
+67
+68
+{"response"=>[{"id"=>390301481, "first_name"=>"江不下新", "last_name"=>"斧玲戸州", "city"=>{"id"=>1914764, "title"=>"Tokyo"}, "photo_id"=>"390301481_456239142", "has_photo"=>1, "counters"=>{"albums"=>3, "videos"=>38, "audios"=>0, "notes"=>0, "photos"=>8, "gifts"=>4, "friends"=>42, "online_friends"=>5, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>1, "pages"=>690}}]}
+69
+70
+71
+{"response"=>[{"id"=>390292948, "first_name"=>"Darina", "last_name"=>"Andreeva", "city"=>{"id"=>1192, "title"=>"Ртищево"}, "photo_id"=>"390292948_456243534", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>514, "audios"=>0, "notes"=>0, "photos"=>7, "gifts"=>86, "friends"=>107, "online_friends"=>38, "mutual_friends"=>0, "followers"=>35, "subscriptions"=>8, "pages"=>606}}]}
+72
+73
+{"response"=>[{"id"=>390289256, "first_name"=>"Дандыбай", "last_name"=>"Алимбанв", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>6, "notes"=>0, "photos"=>0, "groups"=>16, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>15}}]}
+74
+{"response"=>[{"id"=>390286391, "first_name"=>"Атабек", "last_name"=>"Фейз", "city"=>{"id"=>1925548, "title"=>"Kuala Lumpur"}, "photo_id"=>"390286391_456239278", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>11, "notes"=>8, "photos"=>37, "groups"=>270, "gifts"=>0, "friends"=>607, "online_friends"=>74, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>426, "pages"=>94}}]}
+75
+76
+{"response"=>[{"id"=>390265241, "first_name"=>"Наталія", "last_name"=>"Міщенко", "photo_id"=>"390265241_440998534", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "groups"=>30, "gifts"=>1, "friends"=>15, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>1, "pages"=>23}}]}
+77
+78
+79
+80
+81
+82
+83
+84
+{"response"=>[{"id"=>390233459, "first_name"=>"Nurliza", "last_name"=>"Anarbekova", "city"=>{"id"=>204, "title"=>"Бишкек"}, "photo_id"=>"390233459_456239098", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>19, "audios"=>0, "notes"=>0, "photos"=>31, "friends"=>77, "online_friends"=>6, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>1, "pages"=>62}}]}
+85
+{"response"=>[{"id"=>390229776, "first_name"=>"Варвара", "last_name"=>"Пушкина", "city"=>{"id"=>169, "title"=>"Ярославль"}, "photo_id"=>"390229776_456239391", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>56, "audios"=>0, "notes"=>0, "photos"=>28, "groups"=>90, "gifts"=>6, "friends"=>54, "online_friends"=>14, "mutual_friends"=>0, "user_photos"=>0, "followers"=>16, "subscriptions"=>1, "pages"=>75}}]}
+86
+{"response"=>[{"id"=>390227127, "first_name"=>"Айгерім", "last_name"=>"Уринбаева", "photo_id"=>"390227127_456239092", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>11, "audios"=>0, "notes"=>0, "photos"=>32, "friends"=>136, "online_friends"=>11, "mutual_friends"=>0, "followers"=>8, "subscriptions"=>0, "pages"=>74}}]}
+87
+88
+{"response"=>[{"id"=>390220951, "first_name"=>"Саянұр", "last_name"=>"Калбаева", "photo_id"=>"390220951_434718544", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>8, "notes"=>0, "photos"=>62, "groups"=>94, "gifts"=>0, "friends"=>28, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>86}}]}
+89
+{"response"=>[{"id"=>390220884, "first_name"=>"Латифа", "last_name"=>"Зайда", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>133, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>36, "online_friends"=>5, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>139}}]}
+90
+91
+{"response"=>[{"id"=>390220216, "first_name"=>"Нурсултан", "last_name"=>"Камчыбеков", "photo_id"=>"390220216_441065770", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>1, "notes"=>0, "photos"=>1, "groups"=>350, "gifts"=>0, "friends"=>59, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>1, "pages"=>307}}]}
+92
+93
+{"response"=>[{"id"=>390213640, "first_name"=>"Сердар", "last_name"=>"Арнагелдиев", "city"=>{"id"=>2113, "title"=>"Мары"}, "photo_id"=>"390213640_456239693", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>77, "audios"=>36, "notes"=>0, "photos"=>3, "groups"=>142, "gifts"=>7, "friends"=>60, "online_friends"=>9, "mutual_friends"=>0, "user_photos"=>0, "followers"=>15, "subscriptions"=>0, "pages"=>126}}]}
+94
+95
+96
+97
+98
+{"response"=>[{"id"=>390186995, "first_name"=>"Ramzan", "last_name"=>"Ranjidov", "city"=>{"id"=>1914287, "title"=>"Хорог"}, "photo_id"=>"390186995_452899917", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>2, "audios"=>12, "notes"=>0, "photos"=>1, "groups"=>16, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>13}}]}
+99
+100
+101
+102
+103
+{"response"=>[{"id"=>390172698, "first_name"=>"Виталий", "last_name"=>"Аникин", "photo_id"=>"390172698_456239109", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>12, "groups"=>190, "gifts"=>0, "friends"=>23, "online_friends"=>1, "mutual_friends"=>0, "followers"=>4, "subscriptions"=>0, "pages"=>154}}]}
+104
+105
+106
+107
+108
+109
+110
+111
+112
+{"response"=>[{"id"=>390158589, "first_name"=>"Мукимджон", "last_name"=>"Курбанов", "city"=>{"id"=>1760, "title"=>"Худжанд"}, "photo_id"=>"390158589_456239294", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>9, "audios"=>28, "notes"=>0, "photos"=>250, "groups"=>339, "gifts"=>0, "friends"=>67, "online_friends"=>7, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>146, "pages"=>309}}]}
+113
+114
+115
+116
+117
+118
+{"response"=>[{"id"=>390143564, "first_name"=>"Cristina", "last_name"=>"Smith", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>12, "audios"=>23, "notes"=>0, "photos"=>0, "groups"=>54, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>35}}]}
+119
+120
+121
+122
+123
+{"response"=>[{"id"=>390124284, "first_name"=>"Татьяна", "last_name"=>"Крайнева", "photo_id"=>"390124284_437870796", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>10, "groups"=>26, "gifts"=>0, "friends"=>36, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>24}}]}
+124
+125
+{"response"=>[{"id"=>390122650, "first_name"=>"Princess", "last_name"=>"Nuryýewa", "photo_id"=>"390122650_456239023", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>8, "groups"=>106, "gifts"=>0, "friends"=>4, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>1, "pages"=>86}}]}
+126
+127
+128
+129
+130
+{"response"=>[{"id"=>390112888, "first_name"=>"Я-Не-Стерва", "last_name"=>"Эта-Нервы", "photo_id"=>"390112888_456239018", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>2, "groups"=>98, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>1, "pages"=>85}}]}
+131
+132
+{"response"=>[{"id"=>390105054, "first_name"=>"Matluba", "last_name"=>"Dimetova", "photo_id"=>"390105054_456239031", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>3, "groups"=>171, "gifts"=>1, "friends"=>26, "online_friends"=>0, "mutual_friends"=>0, "followers"=>8, "subscriptions"=>0, "pages"=>125}}]}
+133
+134
+135
+136
+{"response"=>[{"id"=>390082618, "first_name"=>"Ksyusha", "last_name"=>"Gudivok", "photo_id"=>"390082618_456241088", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>0, "notes"=>0, "photos"=>18, "gifts"=>7, "friends"=>93, "online_friends"=>13, "mutual_friends"=>0, "user_photos"=>0, "followers"=>22, "subscriptions"=>0, "pages"=>238}}]}
+137
+138
+139
+140
+141
+142
+{"response"=>[{"id"=>390060003, "first_name"=>"Валера", "last_name"=>"Даскалица", "photo_id"=>"390060003_456241695", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>94, "audios"=>298, "notes"=>0, "photos"=>10, "friends"=>142, "online_friends"=>19, "mutual_friends"=>0, "followers"=>30, "subscriptions"=>1, "pages"=>153}}]}
+143
+144
+145
+{"response"=>[{"id"=>390047390, "first_name"=>"Engel", "last_name"=>"Mandzhieva", "photo_id"=>"390047390_456239109", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>3, "audios"=>0, "notes"=>0, "photos"=>1, "gifts"=>1, "friends"=>25, "online_friends"=>6, "mutual_friends"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>34}}]}
+146
+{"response"=>[{"id"=>390047261, "first_name"=>"Valery", "last_name"=>"Skill", "photo_id"=>"390047261_437111771", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>5, "notes"=>0, "photos"=>1, "groups"=>122, "gifts"=>0, "friends"=>38, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>4, "subscriptions"=>25, "pages"=>40}}]}
+147
+148
+149
+{"response"=>[{"id"=>390038765, "first_name"=>"Ясмина", "last_name"=>"Каусар", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>41}}]}
+150
+{"response"=>[{"id"=>390037479, "first_name"=>"Сания", "last_name"=>"Мустафаева", "photo_id"=>"390037479_456251438", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>45, "audios"=>1929, "notes"=>0, "photos"=>66, "groups"=>2284, "friends"=>249, "online_friends"=>34, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>8, "pages"=>1624}}]}
+151
+{"response"=>[{"id"=>390035300, "first_name"=>"Muhabbat", "last_name"=>"Umarova", "photo_id"=>"390035300_456239090", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>137, "notes"=>0, "photos"=>2, "groups"=>306, "gifts"=>0, "friends"=>48, "online_friends"=>1, "mutual_friends"=>0, "followers"=>85, "subscriptions"=>3, "pages"=>277}}]}
+152
+153
+154
+155
+156
+157
+158
+159
+160
+{"response"=>[{"id"=>390006827, "first_name"=>"Руслан", "last_name"=>"Мусабеков", "photo_id"=>"390006827_438684079", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>11, "audios"=>28, "notes"=>0, "photos"=>9, "gifts"=>0, "friends"=>69, "online_friends"=>10, "mutual_friends"=>0, "followers"=>87, "subscriptions"=>273, "pages"=>107}}]}
+161
+162
+163
+164
+{"response"=>[{"id"=>389997307, "first_name"=>"Евгения", "last_name"=>"Белозерова", "city"=>{"id"=>628, "title"=>"Запорожье"}, "photo_id"=>"389997307_456239021", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>9, "audios"=>31, "notes"=>0, "photos"=>5, "groups"=>44, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>39}}]}
+165
+166
+167
+168
+169
+170
+171
+{"response"=>[{"id"=>389965167, "first_name"=>"Мухан", "last_name"=>"Саденов", "photo_id"=>"389965167_456239018", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>184, "audios"=>0, "notes"=>0, "photos"=>2, "groups"=>437, "gifts"=>0, "friends"=>2, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>414}}]}
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+{"response"=>[{"id"=>389925869, "first_name"=>"Нурсултан", "last_name"=>"Накибаев", "city"=>{"id"=>183, "title"=>"Алматы"}, "has_photo"=>0, "counters"=>{"albums"=>1, "videos"=>25, "audios"=>89, "notes"=>0, "photos"=>43, "gifts"=>0, "friends"=>11, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>23, "subscriptions"=>1, "pages"=>406}}]}
+184
+185
+186
+{"response"=>[{"id"=>389916471, "first_name"=>"Мэри", "last_name"=>"Мэри", "photo_id"=>"389916471_436826809", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "followers"=>5, "subscriptions"=>0, "pages"=>74}}]}
+187
+{"response"=>[{"id"=>389915463, "first_name"=>"Tetyanka", "last_name"=>"Yurchenko", "photo_id"=>"389915463_435302332", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>331, "notes"=>0, "photos"=>1, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>43}}]}
+188
+{"response"=>[{"id"=>389911727, "first_name"=>"Gina", "last_name"=>"Brunot", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "groups"=>54, "gifts"=>0, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>42}}]}
+189
+190
+191
+192
+193
+194
+{"response"=>[{"id"=>389887380, "first_name"=>"Сергей", "last_name"=>"Ким", "city"=>{"id"=>83, "title"=>"Майкоп"}, "photo_id"=>"389887380_456239225", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>5, "audios"=>0, "notes"=>0, "photos"=>38, "friends"=>39, "online_friends"=>7, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>18, "pages"=>223}}]}
+195
+196
+197
+{"response"=>[{"id"=>389878169, "first_name"=>"Анатан", "last_name"=>"Найда", "city"=>{"id"=>314, "title"=>"Киев"}, "photo_id"=>"389878169_456239316", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>4, "friends"=>396, "online_friends"=>30, "mutual_friends"=>0, "followers"=>168, "subscriptions"=>0, "pages"=>2204}}]}
+198
+199
+{"response"=>[{"id"=>389869375, "first_name"=>"Yulduz", "last_name"=>"Fahriddin", "city"=>{"id"=>3193, "title"=>"Шымкент"}, "photo_id"=>"389869375_456239017", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>9, "audios"=>0, "notes"=>0, "photos"=>2, "gifts"=>0, "friends"=>47, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>18, "subscriptions"=>0, "pages"=>63}}]}
+200
+201
+{"response"=>[{"id"=>389865268, "first_name"=>"Halyk", "last_name"=>"Bolashak", "city"=>{"id"=>3452, "title"=>"Талгар"}, "photo_id"=>"389865268_456239117", "has_photo"=>1, "counters"=>{"albums"=>4, "videos"=>8, "audios"=>1, "notes"=>0, "photos"=>178, "groups"=>68, "gifts"=>1, "friends"=>142, "online_friends"=>12, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>4, "pages"=>52}}]}
+202
+203
+{"response"=>[{"id"=>389841872, "first_name"=>"Аружан", "last_name"=>"Скабылова", "city"=>{"id"=>183, "title"=>"Алматы"}, "photo_id"=>"389841872_456239061", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>5, "audios"=>37, "notes"=>0, "photos"=>7, "groups"=>38, "friends"=>126, "online_friends"=>10, "mutual_friends"=>0, "followers"=>12, "subscriptions"=>4, "pages"=>28}}]}
+204
+205
+206
+207
+208
+{"response"=>[{"id"=>389814401, "first_name"=>"Марья", "last_name"=>"Кравцова", "city"=>{"id"=>147, "title"=>"Тюмень"}, "photo_id"=>"389814401_456251057", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>8, "audios"=>1369, "notes"=>0, "photos"=>21, "friends"=>215, "online_friends"=>36, "mutual_friends"=>0, "followers"=>4, "subscriptions"=>1, "pages"=>645}}]}
+209
+210
+211
+212
+213
+214
+215
+{"response"=>[{"id"=>389799871, "first_name"=>"Анна", "last_name"=>"Герцберг", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>13, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>1, "online_friends"=>1, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>37}}]}
+216
+217
+218
+219
+{"response"=>[{"id"=>389782825, "first_name"=>"Молдир", "last_name"=>"Анарбаева", "city"=>{"id"=>7279, "title"=>"Петропавловск"}, "photo_id"=>"389782825_456239222", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>13, "friends"=>206, "online_friends"=>15, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>2, "pages"=>119}}]}
+220
+221
+222
+{"response"=>[{"id"=>389778678, "first_name"=>"Фазлиддин", "last_name"=>"Бабакулов", "photo_id"=>"389778678_456239479", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>40, "audios"=>0, "notes"=>0, "photos"=>18, "friends"=>87, "online_friends"=>14, "mutual_friends"=>0, "followers"=>16, "subscriptions"=>3, "pages"=>229}}]}
+223
+224
+225
+226
+{"response"=>[{"id"=>389770505, "first_name"=>"Андрей", "last_name"=>"Иванов", "city"=>{"id"=>1, "title"=>"Москва"}, "photo_id"=>"389770505_441801237", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>2, "groups"=>42, "gifts"=>0, "friends"=>2, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>37}}]}
+2
+3
+2
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+{"response"=>[{"id"=>389644549, "first_name"=>"Alex", "last_name"=>"Leto", "city"=>{"id"=>5331, "title"=>"Los Angeles"}, "photo_id"=>"389644549_439485799", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>1, "audios"=>77, "notes"=>0, "photos"=>1, "gifts"=>4, "friends"=>58, "online_friends"=>7, "mutual_friends"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>25}}]}
+257
+{"response"=>[{"id"=>389644493, "first_name"=>"Алихан", "last_name"=>"Исламхан", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>96, "audios"=>0, "notes"=>0, "photos"=>1, "gifts"=>1, "friends"=>34, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>8, "subscriptions"=>1, "pages"=>140}}]}
+258
+259
+260
+261
+262
+263
+264
+265
+266
+{"response"=>[{"id"=>389625007, "first_name"=>"Кристина", "last_name"=>"Шехматова", "photo_id"=>"389625007_456242377", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>0, "notes"=>0, "photos"=>12, "gifts"=>67, "friends"=>138, "online_friends"=>16, "mutual_friends"=>0, "user_photos"=>0, "followers"=>40, "subscriptions"=>0, "pages"=>339}}]}
+267
+{"response"=>[{"id"=>389623032, "first_name"=>"Aleyna", "last_name"=>"Aliyeva", "photo_id"=>"389623032_438983198", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>19, "notes"=>0, "photos"=>1, "groups"=>88, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>63}}]}
+268
+269
+270
+271
+272
+{"response"=>[{"id"=>389603066, "first_name"=>"Lachin", "last_name"=>"Timosha", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "groups"=>95, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>79}}]}
+273
+274
+275
+276
+277
+278
+279
+280
+281
+{"response"=>[{"id"=>389576375, "first_name"=>"Александр", "last_name"=>"Марченко", "photo_id"=>"389576375_456239017", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>12, "groups"=>20, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>14, "pages"=>15}}]}
+282
+283
+284
+285
+286
+287
+288
+289
+{"response"=>[{"id"=>389552229, "first_name"=>"Аружан", "last_name"=>"Мелартова", "city"=>{"id"=>3193, "title"=>"Шымкент"}, "photo_id"=>"389552229_456239791", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>104, "audios"=>165, "notes"=>0, "photos"=>87, "groups"=>621, "gifts"=>6, "friends"=>623, "online_friends"=>70, "mutual_friends"=>0, "user_photos"=>0, "followers"=>82, "subscriptions"=>1, "pages"=>355}}]}
+290
+291
+292
+293
+294
+295
+296
+{"response"=>[{"id"=>389540390, "first_name"=>"莎", "last_name"=>"达", "photo_id"=>"389540390_456239029", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>12, "groups"=>33, "gifts"=>10, "friends"=>38, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>28}}]}
+297
+298
+299
+{"response"=>[{"id"=>389531533, "first_name"=>"Dorina", "last_name"=>"Papuc", "photo_id"=>"389531533_456239038", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>31, "notes"=>0, "photos"=>5, "groups"=>251, "gifts"=>0, "friends"=>49, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>13, "subscriptions"=>4, "pages"=>245}}]}
+300
+301
+302
+303
+{"response"=>[{"id"=>389488440, "first_name"=>"Alexandr", "last_name"=>"Poltorak", "photo_id"=>"389488440_456239021", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "groups"=>16, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>15}}]}
+304
+305
+{"response"=>[{"id"=>389481621, "first_name"=>"Shakeeb", "last_name"=>"Khan", "photo_id"=>"389481621_456248603", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>18, "audios"=>0, "notes"=>0, "photos"=>17, "friends"=>186, "online_friends"=>10, "mutual_friends"=>0, "followers"=>20, "subscriptions"=>58, "pages"=>439}}]}
+306
+307
+308
+309
+310
+311
+312
+313
+{"response"=>[{"id"=>389460196, "first_name"=>"Светлана", "last_name"=>"Шерстова", "photo_id"=>"389460196_438423685", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>22, "audios"=>14, "notes"=>0, "photos"=>18, "groups"=>76, "gifts"=>0, "friends"=>32, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>56}}]}
+314
+315
+316
+{"response"=>[{"id"=>389451540, "first_name"=>"Svetlana", "last_name"=>"Kailas", "photo_id"=>"389451540_456239053", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>3, "audios"=>0, "notes"=>0, "photos"=>11, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>74}}]}
+317
+318
+{"response"=>[{"id"=>389448244, "first_name"=>"Aýjemal", "last_name"=>"Hudaýnazarowa", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>2516, "audios"=>838, "notes"=>0, "photos"=>1, "groups"=>1207, "gifts"=>4, "friends"=>37, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>12, "subscriptions"=>0, "pages"=>603}}]}
+319
+320
+321
+{"response"=>[{"id"=>389433300, "first_name"=>"Aidana", "last_name"=>"Ermek", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "groups"=>30, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>25}}]}
+322
+{"response"=>[{"id"=>389426835, "first_name"=>"Максим", "last_name"=>"Иванович", "city"=>{"id"=>2, "title"=>"Санкт-Петербург"}, "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>11, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "followers"=>4, "subscriptions"=>1, "pages"=>109}}]}
+323
+324
+325
+326
+{"response"=>[{"id"=>389412322, "first_name"=>"Гульмира", "last_name"=>"Ахмет", "city"=>{"id"=>14, "title"=>"Астана"}, "photo_id"=>"389412322_456239107", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>11, "notes"=>0, "photos"=>242, "groups"=>988, "gifts"=>0, "friends"=>84, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>8, "pages"=>791}}]}
+327
+328
+329
+330
+331
+332
+{"response"=>[{"id"=>389397435, "first_name"=>"Сима", "last_name"=>"Исмаилова", "city"=>{"id"=>204, "title"=>"Бишкек"}, "photo_id"=>"389397435_456241116", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>71, "audios"=>0, "notes"=>0, "photos"=>1, "friends"=>5, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>141, "subscriptions"=>0, "pages"=>63}}]}
+333
+{"response"=>[{"id"=>389393895, "first_name"=>"Kahl", "last_name"=>"Katze", "photo_id"=>"389393895_456239022", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>12, "audios"=>65, "notes"=>0, "photos"=>5, "groups"=>72, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>60}}]}
+334
+335
+336
+337
+{"response"=>[{"id"=>389377954, "first_name"=>"Shynarai", "last_name"=>"Sagyndykova", "city"=>{"id"=>1712003, "title"=>"Seoul"}, "photo_id"=>"389377954_456239031", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>5, "notes"=>0, "photos"=>2, "groups"=>170, "gifts"=>1, "friends"=>105, "online_friends"=>13, "mutual_friends"=>0, "user_photos"=>0, "followers"=>41, "subscriptions"=>0, "pages"=>143}}]}
+338
+339
+{"response"=>[{"id"=>389363184, "first_name"=>"Karina", "last_name"=>"Ruslanovna", "photo_id"=>"389363184_436403736", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>6, "groups"=>56, "gifts"=>0, "friends"=>8, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>55}}]}
+340
+{"response"=>[{"id"=>389359970, "first_name"=>"Мадина", "last_name"=>"Кубыр", "photo_id"=>"389359970_456241611", "has_photo"=>1, "counters"=>{"albums"=>2, "videos"=>93, "audios"=>0, "notes"=>0, "photos"=>3, "friends"=>88, "online_friends"=>3, "mutual_friends"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>214}}]}
+341
+{"response"=>[{"id"=>389353879, "first_name"=>"Li", "last_name"=>"Minho", "photo_id"=>"389353879_456239017", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>40, "audios"=>0, "notes"=>0, "photos"=>1, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>59}}]}
+342
+343
+344
+345
+{"response"=>[{"id"=>389338955, "first_name"=>"Anastasia", "last_name"=>"Astanina", "city"=>{"id"=>143, "title"=>"Тольятти"}, "photo_id"=>"389338955_456239019", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>10, "notes"=>0, "photos"=>108, "groups"=>102, "gifts"=>1, "friends"=>27, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>32, "subscriptions"=>0, "pages"=>80}}]}
+346
+347
+348
+{"response"=>[{"id"=>389333581, "first_name"=>"Egor", "last_name"=>"Martynov", "city"=>{"id"=>1950345, "title"=>"México"}, "photo_id"=>"389333581_456239030", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>16, "audios"=>27, "notes"=>0, "photos"=>2, "groups"=>344, "gifts"=>11, "friends"=>54, "online_friends"=>12, "mutual_friends"=>0, "followers"=>23, "subscriptions"=>1, "pages"=>294}}]}
+349
+{"response"=>[{"id"=>389329330, "first_name"=>"Geny", "last_name"=>"Wise", "photo_id"=>"389329330_456239019", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>4, "audios"=>3, "notes"=>0, "photos"=>3, "groups"=>21, "gifts"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>19}}]}
+350
+351
+{"response"=>[{"id"=>389323580, "first_name"=>"Жанна", "last_name"=>"Суйеубаева", "city"=>{"id"=>2410, "title"=>"Нукус"}, "photo_id"=>"389323580_456239431", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>26, "audios"=>0, "notes"=>0, "photos"=>17, "gifts"=>3, "friends"=>125, "online_friends"=>9, "mutual_friends"=>0, "followers"=>415, "subscriptions"=>6, "pages"=>153}}]}
+352
+353
+{"response"=>[{"id"=>389311791, "first_name"=>"Самир", "last_name"=>"Керимов", "city"=>{"id"=>280, "title"=>"Харьков"}, "photo_id"=>"389311791_456239071", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>38, "audios"=>43, "notes"=>0, "photos"=>35, "friends"=>46, "online_friends"=>5, "mutual_friends"=>0, "followers"=>74, "subscriptions"=>0, "pages"=>183}}]}
+354
+{"response"=>[{"id"=>389305488, "first_name"=>"Коля", "last_name"=>"Морару", "photo_id"=>"389305488_456239161", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>31, "notes"=>0, "photos"=>9, "friends"=>78, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>39}}]}
+355
+356
+357
+358
+359
+360
+{"response"=>[{"id"=>389290872, "first_name"=>"Винус", "last_name"=>"Мэй", "photo_id"=>"389290872_456239031", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>88, "audios"=>0, "notes"=>0, "photos"=>8, "gifts"=>0, "friends"=>1, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>122}}]}
+361
+{"response"=>[{"id"=>389290419, "first_name"=>"Айсулу", "last_name"=>"Иманова", "city"=>{"id"=>3193, "title"=>"Шымкент"}, "photo_id"=>"389290419_456239072", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>9, "audios"=>102, "notes"=>0, "photos"=>2, "gifts"=>0, "friends"=>11, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>7, "subscriptions"=>0, "pages"=>333}}]}
+362
+{"response"=>[{"id"=>389284757, "first_name"=>"Латифа", "last_name"=>"Тагнабердиева", "city"=>{"id"=>1661, "title"=>"Washington, D.C."}, "photo_id"=>"389284757_456239475", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>5, "friends"=>69, "online_friends"=>6, "mutual_friends"=>0, "followers"=>3, "subscriptions"=>7, "pages"=>134}}]}
+363
+364
+365
+366
+{"response"=>[{"id"=>389272377, "first_name"=>"Самара", "last_name"=>"Аппакаева", "photo_id"=>"389272377_456241781", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>6, "audios"=>0, "notes"=>0, "photos"=>26, "friends"=>574, "online_friends"=>136, "mutual_friends"=>0, "followers"=>1247, "subscriptions"=>29, "pages"=>221}}]}
+367
+368
+369
+{"response"=>[{"id"=>389260166, "first_name"=>"Bagul", "last_name"=>"Yagsyyeva", "city"=>{"id"=>50, "title"=>"Елабуга"}, "photo_id"=>"389260166_456239376", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>135, "audios"=>405, "notes"=>0, "photos"=>15, "groups"=>183, "friends"=>116, "online_friends"=>6, "mutual_friends"=>0, "followers"=>12, "subscriptions"=>8, "pages"=>152}}]}
+370
+371
+372
+373
+374
+375
+{"response"=>[{"id"=>389249123, "first_name"=>"Scarlet", "last_name"=>"Scarlet", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>37, "notes"=>0, "photos"=>2, "groups"=>75, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>2, "pages"=>74}}]}
+376
+377
+378
+379
+380
+381
+{"response"=>[{"id"=>389240435, "first_name"=>"Каріна", "last_name"=>"Ковтоногова", "city"=>{"id"=>4917, "title"=>"Лубны"}, "photo_id"=>"389240435_456239130", "has_photo"=>1, "counters"=>{"albums"=>10, "videos"=>0, "audios"=>12, "notes"=>0, "photos"=>168, "groups"=>385, "gifts"=>10, "friends"=>169, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>0, "followers"=>17, "subscriptions"=>24, "pages"=>230}}]}
+382
+383
+384
+{"response"=>[{"id"=>389225888, "first_name"=>"Мадина", "last_name"=>"Сарсенбек", "city"=>{"id"=>14, "title"=>"Астана"}, "photo_id"=>"389225888_456239235", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>14, "audios"=>51, "notes"=>0, "photos"=>6, "groups"=>67, "gifts"=>0, "friends"=>54, "online_friends"=>10, "mutual_friends"=>0, "user_photos"=>0, "followers"=>6, "subscriptions"=>0, "pages"=>66}}]}
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+{"response"=>[{"id"=>389166357, "first_name"=>"Timur", "last_name"=>"Kartal", "city"=>{"id"=>282, "title"=>"Минск"}, "photo_id"=>"389166357_456239070", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>65, "notes"=>0, "photos"=>3, "gifts"=>2, "friends"=>57, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>0, "followers"=>4, "subscriptions"=>0, "pages"=>48}}]}
+397
+{"response"=>[{"id"=>389161070, "first_name"=>"Perizat", "last_name"=>"Japarova", "city"=>{"id"=>204, "title"=>"Бишкек"}, "photo_id"=>"389161070_456239500", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>16, "friends"=>30, "online_friends"=>0, "mutual_friends"=>0, "followers"=>26, "subscriptions"=>0, "pages"=>113}}]}
+398
+399
+400
+{"response"=>[{"id"=>389147685, "first_name"=>"Мила", "last_name"=>"Мила", "city"=>{"id"=>70, "title"=>"Комсомольск-на-Амуре"}, "photo_id"=>"389147685_437256642", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>7, "audios"=>0, "notes"=>0, "photos"=>37, "gifts"=>74, "friends"=>148, "online_friends"=>8, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>7, "pages"=>4368}}]}
+401
+402
+403
+{"response"=>[{"id"=>389141609, "first_name"=>"Paisiy", "last_name"=>"Yakubivskiy", "photo_id"=>"389141609_456239928", "has_photo"=>1, "counters"=>{"albums"=>2, "videos"=>4, "audios"=>0, "notes"=>0, "photos"=>7, "friends"=>335, "online_friends"=>15, "mutual_friends"=>0, "followers"=>72, "subscriptions"=>0, "pages"=>186}}]}
+404
+{"response"=>[{"id"=>389134369, "first_name"=>"Snezhana", "last_name"=>"Gordey", "city"=>{"id"=>3700, "title"=>"Волгодонск"}, "photo_id"=>"389134369_456240802", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>66, "audios"=>0, "notes"=>0, "photos"=>7, "groups"=>254, "gifts"=>5, "friends"=>70, "online_friends"=>7, "mutual_friends"=>0, "followers"=>81, "subscriptions"=>0, "pages"=>217}}]}
+405
+406
+407
+408
+409
+410
+{"response"=>[{"id"=>389103393, "first_name"=>"Galina", "last_name"=>"Pishchikova", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "groups"=>21, "gifts"=>0, "friends"=>3, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>10}}]}
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+{"response"=>[{"id"=>389066552, "first_name"=>"Дмитрий", "last_name"=>"Макаров", "photo_id"=>"389066552_440283349", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>22, "audios"=>105, "notes"=>0, "photos"=>11, "gifts"=>0, "friends"=>132, "online_friends"=>12, "mutual_friends"=>0, "followers"=>0, "subscriptions"=>58, "pages"=>547}}]}
+423
+424
+425
+426
+{"response"=>[{"id"=>389052272, "first_name"=>"Анфиса", "last_name"=>"Полиглотова", "city"=>{"id"=>26, "title"=>"Белгород"}, "photo_id"=>"389052272_438249933", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>72, "audios"=>11, "notes"=>0, "photos"=>415, "groups"=>118, "gifts"=>1, "friends"=>586, "online_friends"=>62, "mutual_friends"=>0, "user_photos"=>0, "followers"=>8, "subscriptions"=>320, "pages"=>46}}]}
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+{"response"=>[{"id"=>388995544, "first_name"=>"Сергей", "last_name"=>"Булатов", "city"=>{"id"=>538, "title"=>"Барановичи"}, "photo_id"=>"388995544_456239671", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>8, "audios"=>373, "notes"=>0, "photos"=>107, "groups"=>1347, "gifts"=>1, "friends"=>322, "online_friends"=>40, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>662}}]}
+442
+443
+444
+{"response"=>[{"id"=>388993061, "first_name"=>"Enjoy", "last_name"=>"Silence", "photo_id"=>"388993061_434897927", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>4, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "followers"=>30, "subscriptions"=>1, "pages"=>486}}]}
+445
+446
+447
+{"response"=>[{"id"=>388983077, "first_name"=>"Frostina", "last_name"=>"Falk", "city"=>{"id"=>53, "title"=>"Жуковский"}, "photo_id"=>"388983077_456239595", "has_photo"=>1, "counters"=>{"albums"=>4, "videos"=>7, "audios"=>169, "notes"=>0, "photos"=>154, "groups"=>143, "gifts"=>12, "friends"=>79, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>1, "followers"=>42, "subscriptions"=>25, "pages"=>86}}]}
+448
+{"response"=>[{"id"=>388979564, "first_name"=>"Julia", "last_name"=>"Neo", "photo_id"=>"388979564_456239064", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>10, "notes"=>0, "photos"=>7, "friends"=>4, "online_friends"=>0, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>11, "pages"=>32}}]}
+449
+{"response"=>[{"id"=>388976452, "first_name"=>"Деня", "last_name"=>"Бобруйский", "city"=>{"id"=>1107, "title"=>"Бобруйск"}, "photo_id"=>"388976452_456241845", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>3, "audios"=>0, "notes"=>0, "photos"=>22, "gifts"=>68, "friends"=>42, "online_friends"=>8, "mutual_friends"=>0, "followers"=>137, "subscriptions"=>8, "pages"=>1997}}]}
+450
+451
+452
+{"response"=>[{"id"=>388968729, "first_name"=>"Светлана", "last_name"=>"Бабкова", "city"=>{"id"=>185, "title"=>"Севастополь"}, "photo_id"=>"388968729_433686735", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>2, "audios"=>1, "notes"=>0, "photos"=>1, "friends"=>41, "online_friends"=>1, "mutual_friends"=>0, "followers"=>10, "subscriptions"=>0, "pages"=>27}}]}
+453
+454
+{"response"=>[{"id"=>388965348, "first_name"=>"Aminjon", "last_name"=>"Sharopov", "city"=>{"id"=>2940, "title"=>"Навои"}, "photo_id"=>"388965348_456239023", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>10, "audios"=>13, "notes"=>0, "photos"=>4, "groups"=>99, "gifts"=>0, "friends"=>37, "online_friends"=>5, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>25, "pages"=>74}}]}
+455
+{"response"=>[{"id"=>388963843, "first_name"=>"Анна", "last_name"=>"Каренина", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>1, "notes"=>0, "photos"=>0, "groups"=>73, "gifts"=>0, "friends"=>6, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>68}}]}
+456
+{"response"=>[{"id"=>388963819, "first_name"=>"Ирина", "last_name"=>"Сантарини", "city"=>{"id"=>158, "title"=>"Челябинск"}, "photo_id"=>"388963819_456239023", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>3, "audios"=>2, "notes"=>0, "photos"=>2, "gifts"=>2, "friends"=>10, "online_friends"=>1, "mutual_friends"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>37}}]}
+457
+458
+459
+{"response"=>[{"id"=>388953419, "first_name"=>"Welcome-Ti", "last_name"=>"My-World", "city"=>{"id"=>183, "title"=>"Алматы"}, "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>116, "notes"=>0, "photos"=>0, "groups"=>60, "gifts"=>0, "friends"=>5, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>45}}]}
+460
+461
+{"response"=>[{"id"=>388951913, "first_name"=>"Johnnie", "last_name"=>"Walker", "photo_id"=>"388951913_436871153", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "groups"=>23, "gifts"=>0, "friends"=>3, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>23}}]}
+462
+463
+464
+465
+466
+467
+468
+469
+{"response"=>[{"id"=>388928532, "first_name"=>"Темирлан", "last_name"=>"Сейталиев", "city"=>{"id"=>1576, "title"=>"Токмок"}, "photo_id"=>"388928532_456239020", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>25, "notes"=>0, "photos"=>1, "groups"=>52, "gifts"=>0, "friends"=>9, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>4, "pages"=>49}}]}
+470
+471
+472
+{"response"=>[{"id"=>388925884, "first_name"=>"Siberian", "last_name"=>"Warrior", "photo_id"=>"388925884_456239212", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>335, "audios"=>399, "notes"=>0, "photos"=>4, "groups"=>147, "gifts"=>20, "friends"=>39, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>0, "followers"=>11, "subscriptions"=>2, "pages"=>107}}]}
+473
+474
+475
+476
+477
+478
+{"response"=>[{"id"=>388911278, "first_name"=>"Люда", "last_name"=>"Христенко", "city"=>{"id"=>42, "title"=>"Воронеж"}, "photo_id"=>"388911278_456239825", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>4, "audios"=>0, "notes"=>0, "photos"=>65, "gifts"=>1, "friends"=>30, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>1, "pages"=>23}}]}
+479
+{"response"=>[{"id"=>388910773, "first_name"=>"Иван", "last_name"=>"Стандарт", "city"=>{"id"=>1, "title"=>"Москва"}, "photo_id"=>"388910773_438766376", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>104, "audios"=>0, "notes"=>0, "photos"=>4, "gifts"=>35, "friends"=>108, "online_friends"=>17, "mutual_friends"=>0, "user_photos"=>0, "followers"=>37, "subscriptions"=>0, "pages"=>278}}]}
+4
+37
+108
+480
+481
+482
+{"response"=>[{"id"=>388901986, "first_name"=>"Таня", "last_name"=>"Паламарчук", "photo_id"=>"388901986_456239284", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>0, "audios"=>28, "notes"=>0, "photos"=>22, "groups"=>320, "gifts"=>1, "friends"=>72, "online_friends"=>4, "mutual_friends"=>0, "user_photos"=>0, "followers"=>17, "subscriptions"=>2, "pages"=>209}}]}
+483
+484
+485
+{"response"=>[{"id"=>388895385, "first_name"=>"Жанат", "last_name"=>"Турсынбаева", "photo_id"=>"388895385_456239841", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>992, "audios"=>0, "notes"=>0, "photos"=>3, "friends"=>164, "online_friends"=>16, "mutual_friends"=>0, "followers"=>33, "subscriptions"=>0, "pages"=>331}}]}
+486
+487
+{"response"=>[{"id"=>388889973, "first_name"=>"Жадыра", "last_name"=>"Жаксымуратова", "city"=>{"id"=>2410, "title"=>"Нукус"}, "photo_id"=>"388889973_456239038", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>1, "gifts"=>0, "friends"=>23, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>146, "subscriptions"=>0, "pages"=>225}}]}
+488
+489
+490
+{"response"=>[{"id"=>388876302, "first_name"=>"Drew", "last_name"=>"Fed", "city"=>{"id"=>2, "title"=>"Санкт-Петербург"}, "photo_id"=>"388876302_456239382", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>42, "audios"=>956, "notes"=>0, "photos"=>4, "groups"=>58, "gifts"=>62, "friends"=>26, "online_friends"=>6, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>53}}]}
+4
+0
+26
+491
+492
+493
+{"response"=>[{"id"=>388856680, "first_name"=>"Нурзат", "last_name"=>"Адиева", "city"=>{"id"=>1949250, "title"=>"Ош"}, "photo_id"=>"388856680_456239053", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>8, "groups"=>135, "gifts"=>0, "friends"=>8, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>7, "subscriptions"=>0, "pages"=>125}}]}
+494
+{"response"=>[{"id"=>388851497, "first_name"=>"Maksym", "last_name"=>"Bilan", "city"=>{"id"=>5129950, "title"=>"Swift Current"}, "photo_id"=>"388851497_456239085", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>6, "audios"=>0, "notes"=>0, "photos"=>90, "groups"=>39, "gifts"=>2, "friends"=>63, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>1, "subscriptions"=>0, "pages"=>36}}]}
+495
+496
+497
+498
+499
+{"response"=>[{"id"=>388806915, "first_name"=>"Лена", "last_name"=>"Ленина", "photo_id"=>"388806915_456239450", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>0, "notes"=>0, "photos"=>16, "friends"=>77, "online_friends"=>7, "mutual_friends"=>0, "followers"=>36, "subscriptions"=>4, "pages"=>203}}]}
+500
+501
+502
+{"response"=>[{"id"=>388798369, "first_name"=>"Lina", "last_name"=>"Kozik", "photo_id"=>"388798369_440089542", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>4, "audios"=>5, "notes"=>0, "photos"=>1, "groups"=>45, "gifts"=>2, "friends"=>12, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>35}}]}
+503
+504
+505
+{"response"=>[{"id"=>388777233, "first_name"=>"Emma", "last_name"=>"West", "city"=>{"id"=>1937246, "title"=>"Душанбе"}, "photo_id"=>"388777233_456239714", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>6, "friends"=>2, "online_friends"=>1, "mutual_friends"=>0, "followers"=>87, "subscriptions"=>0, "pages"=>118}}]}
+506
+507
+508
+509
+510
+511
+512
+{"response"=>[{"id"=>388756334, "first_name"=>"Жансая", "last_name"=>"Абдималик", "photo_id"=>"388756334_456239701", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>8, "friends"=>41, "online_friends"=>11, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>363}}]}
+513
+514
+515
+{"response"=>[{"id"=>388746731, "first_name"=>"Анастасия", "last_name"=>"Мариани", "city"=>{"id"=>552, "title"=>"Луганск"}, "photo_id"=>"388746731_437299804", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>8, "notes"=>0, "photos"=>7, "groups"=>53, "gifts"=>0, "friends"=>168, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>13, "subscriptions"=>2, "pages"=>24}}]}
+516
+517
+518
+519
+{"response"=>[{"id"=>388735329, "first_name"=>"Ольга", "last_name"=>"Наумова", "city"=>{"id"=>2, "title"=>"Санкт-Петербург"}, "photo_id"=>"388735329_456242057", "has_photo"=>1, "counters"=>{"albums"=>2, "videos"=>7872, "audios"=>10001, "notes"=>0, "photos"=>144, "groups"=>5000, "gifts"=>4, "friends"=>67, "online_friends"=>11, "mutual_friends"=>0, "user_photos"=>0, "followers"=>504, "subscriptions"=>242, "pages"=>3428}}]}
+144
+504
+67
+yes
+388735329_456242057
+1111111111111111111111111111111
+{"response"=>{"likes"=>116}}
+388735329
+7994
 like
 comment
+1000
+1
+2
+3
+4
+5
+{"response"=>[{"id"=>388718325, "first_name"=>"Аня", "last_name"=>"Иванова", "photo_id"=>"388718325_456239164", "has_photo"=>1, "counters"=>{"albums"=>5, "videos"=>33, "audios"=>0, "notes"=>0, "photos"=>18, "gifts"=>2, "friends"=>33, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>20, "subscriptions"=>1, "pages"=>814}}]}
+6
+7
+8
+9
+{"response"=>[{"id"=>388707445, "first_name"=>"Лиана", "last_name"=>"Мухамедьярова", "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>24, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>0, "online_friends"=>0, "mutual_friends"=>0, "followers"=>0, "subscriptions"=>0, "pages"=>80}}]}
+10
+{"response"=>[{"id"=>388706712, "first_name"=>"Andrew", "last_name"=>"Dolmatov", "city"=>{"id"=>2, "title"=>"Санкт-Петербург"}, "photo_id"=>"388706712_456241261", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>187, "notes"=>0, "photos"=>1762, "groups"=>5000, "gifts"=>3, "friends"=>906, "online_friends"=>121, "mutual_friends"=>0, "followers"=>266, "subscriptions"=>2, "pages"=>4833}}]}
+1762
+266
+906
+yes
+388706712_456241261
+1111111111111111111111111111111
+{"response"=>{"likes"=>5}}
+388706712
+8004
 like
 resent
 {"response"=>{"count"=>0, "items"=>[]}}
 accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>2, "items"=>[433629378, 180623088]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>2, "items"=>[263428397, 182518637]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>2, "items"=>[246718027, 275811049]}}
-accessept
-repost
-rake aborted!
-Errno::EHOSTUNREACH: Failed to open TCP connection to api.vk.com:443 (No route to host - connect(2) for "api.vk.com" port 443)
-/home/andrey/vk_bot_test/app/models/like.rb:21:in `make'
-/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
-/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
-Errno::EHOSTUNREACH: No route to host - connect(2) for "api.vk.com" port 443
-/home/andrey/vk_bot_test/app/models/like.rb:21:in `make'
-/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
-/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
-Tasks: TOP => bots_run:go
-(See full trace by running task with --trace)
-like
-comment
-like
-resent
-{"response"=>{"count"=>2, "items"=>[432143398, 433581927]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[140296111]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>2, "items"=>[433529065, 106420900]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[329610495]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[417481493]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[87613275]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[416551658]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-rake aborted!
-NoMethodError: undefined method `[]' for nil:NilClass
-/home/andrey/vk_bot_test/app/models/like.rb:32:in `make'
-/home/andrey/vk_bot_test/app/models/bot_cycle.rb:10:in `make'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:6:in `block in make'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/vendor/cache/ruby/2.3.0/gems/activerecord-4.2.6/lib/active_record/relation/delegation.rb:46:in `each'
-/home/andrey/vk_bot_test/app/models/bot_run.rb:4:in `make'
-/home/andrey/vk_bot_test/lib/tasks/bots_run.rake:3:in `block (2 levels) in <top (required)>'
-Tasks: TOP => bots_run:go
-(See full trace by running task with --trace)
-like
-comment
-like
-resent
-{"response"=>{"count"=>0, "items"=>[]}}
-accessept
-repost
-like
-comment
-like
-resent
-{"response"=>{"count"=>1, "items"=>[180530794]}}
-accessept
-repost
+1000
+1
+2
+3
+4
+{"response"=>[{"id"=>388687217, "first_name"=>"Rebecca", "last_name"=>"Cobain", "city"=>{"id"=>378, "title"=>"New York City"}, "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>0, "groups"=>17, "gifts"=>0, "friends"=>2, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>0, "subscriptions"=>1, "pages"=>16}}]}
+5
+6
+7
+{"response"=>[{"id"=>388675581, "first_name"=>"Дженнета", "last_name"=>"Базарова", "city"=>{"id"=>149, "title"=>"Ульяновск"}, "photo_id"=>"388675581_456239855", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>4, "audios"=>100, "notes"=>0, "photos"=>1, "groups"=>81, "gifts"=>8, "friends"=>38, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>70, "subscriptions"=>2, "pages"=>74}}]}
+8
+9
+10
+{"response"=>[{"id"=>388654368, "first_name"=>"Анна", "last_name"=>"Бойцова", "city"=>{"id"=>87, "title"=>"Мурманск"}, "photo_id"=>"388654368_435172932", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>2, "notes"=>0, "photos"=>1, "groups"=>112, "gifts"=>0, "friends"=>26, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>5, "subscriptions"=>0, "pages"=>50}}]}
+11
+12
+{"response"=>[{"id"=>388649705, "first_name"=>"I'll-Be", "last_name"=>"Gone", "photo_id"=>"388649705_456239034", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>1, "audios"=>7, "notes"=>0, "photos"=>3, "groups"=>54, "gifts"=>0, "friends"=>15, "online_friends"=>1, "mutual_friends"=>0, "user_photos"=>0, "followers"=>4, "subscriptions"=>1, "pages"=>50}}]}
+13
+14
+15
+16
+17
+{"response"=>[{"id"=>388627074, "first_name"=>"Diyadin", "last_name"=>"Architec", "photo_id"=>"388627074_435247999", "has_photo"=>1, "counters"=>{"albums"=>1, "videos"=>1, "audios"=>0, "notes"=>0, "photos"=>18, "groups"=>35, "gifts"=>0, "friends"=>48, "online_friends"=>3, "mutual_friends"=>0, "user_photos"=>0, "followers"=>17, "subscriptions"=>15, "pages"=>28}}]}
+18
+19
+20
+21
+{"response"=>[{"id"=>388616320, "first_name"=>"Дарья", "last_name"=>"Мирная", "city"=>{"id"=>584, "title"=>"Manchester"}, "photo_id"=>"388616320_456245289", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>452, "audios"=>1870, "notes"=>0, "photos"=>10, "friends"=>421, "online_friends"=>73, "mutual_friends"=>0, "followers"=>0, "subscriptions"=>8, "pages"=>1054}}]}
+22
+23
+24
+25
+26
+27
+28
+{"response"=>[{"id"=>388591989, "first_name"=>"Інкар", "last_name"=>"Абишева", "photo_id"=>"388591989_456239044", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>5, "notes"=>0, "photos"=>18, "groups"=>127, "gifts"=>0, "friends"=>139, "online_friends"=>22, "mutual_friends"=>0, "user_photos"=>0, "followers"=>29, "subscriptions"=>22, "pages"=>110}}]}
+29
+30
+31
+{"response"=>[{"id"=>388582398, "first_name"=>"Акбиби", "last_name"=>"Абсадык", "city"=>{"id"=>1517642, "title"=>"Кызылорда "}, "photo_id"=>"388582398_456239324", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>3, "audios"=>0, "notes"=>0, "photos"=>4, "gifts"=>5, "friends"=>140, "online_friends"=>26, "mutual_friends"=>0, "followers"=>122, "subscriptions"=>0, "pages"=>96}}]}
+32
+{"response"=>[{"id"=>388582261, "first_name"=>"Камола", "last_name"=>"Расулова", "photo_id"=>"388582261_456239677", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>42, "notes"=>0, "photos"=>46, "groups"=>2132, "gifts"=>2, "friends"=>271, "online_friends"=>17, "mutual_friends"=>0, "user_photos"=>0, "followers"=>482, "subscriptions"=>9, "pages"=>1970}}]}
+33
+34
+35
+36
+37
+38
+39
+{"response"=>[{"id"=>388566711, "first_name"=>"Big", "last_name"=>"Brain", "photo_id"=>"388566711_437737353", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>4, "notes"=>0, "photos"=>2, "groups"=>167, "gifts"=>0, "friends"=>4, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>2, "subscriptions"=>0, "pages"=>117}}]}
+40
+41
+42
+43
+{"response"=>[{"id"=>388558410, "first_name"=>"Андрей", "last_name"=>"Панков", "city"=>{"id"=>378, "title"=>"New York City"}, "has_photo"=>0, "counters"=>{"albums"=>0, "videos"=>2, "audios"=>0, "notes"=>0, "photos"=>0, "friends"=>4, "online_friends"=>0, "mutual_friends"=>0, "followers"=>3, "subscriptions"=>0, "pages"=>173}}]}
+44
+{"response"=>[{"id"=>388556995, "first_name"=>"Рома", "last_name"=>"Степанов", "photo_id"=>"388556995_453922618", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>17, "audios"=>0, "notes"=>0, "photos"=>22, "gifts"=>0, "friends"=>2, "online_friends"=>0, "mutual_friends"=>0, "followers"=>11, "subscriptions"=>1, "pages"=>55}}]}
+45
+46
+47
+{"response"=>[{"id"=>388542508, "first_name"=>"St", "last_name"=>"Ns", "photo_id"=>"388542508_435176170", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>3, "groups"=>119, "gifts"=>0, "friends"=>8, "online_friends"=>0, "mutual_friends"=>0, "user_photos"=>0, "followers"=>7, "subscriptions"=>0, "pages"=>85}}]}
+48
+49
+50
+51
+52
+53
+54
+{"response"=>[{"id"=>388530242, "first_name"=>"Жайноооша", "last_name"=>"Бегдуллаева", "photo_id"=>"388530242_434190497", "has_photo"=>1, "counters"=>{"albums"=>0, "videos"=>0, "audios"=>0, "notes"=>0, "photos"=>3, "groups"=>32, "gifts"=>0, "friends"=>4, "online_friends"=>2, "mutual_friends"=>0, "user_photos"=>0, "followers"=>6, "subscriptions"=>3, "pages"=>23}}]}

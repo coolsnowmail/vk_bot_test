@@ -77,7 +77,10 @@ class Bot < ActiveRecord::Base
   end
 
   def if_members_for_messsage_send_over(members_count)
-    task.update(message_offset: 0) if task.message_offset >= members_count
+    if task.message_offset >= members_count
+      task.update(message_offset: 0)
+      task.groups.first.destroy
+    end
   end
 
   def disactive_bot

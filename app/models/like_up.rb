@@ -5,11 +5,11 @@ class LikeUp < ActiveRecord::Base
   def self.make(bot_id)
     coun = 0
     bot = Bot.find_by(id: bot_id)
-    if bot && bot.check_message_limit < 20
+    if bot && bot.check_message_limit < 300
       uri = URI.parse('https://api.vk.com/method/groups.getMembers')
       response = Net::HTTP.post_form(
         uri,
-        'group_id' => bot.task.message_group.vk_id,
+        'group_id' => bot.task.groups.first.url,
         'sort' => 'id_desc',
         'offset' => bot.task.message_offset,
         'count' => 1000,
@@ -19,6 +19,7 @@ class LikeUp < ActiveRecord::Base
       vk_user_ids = JSON.parse(response.body)
 puts vk_user_ids["response"]["items"].size
       bot.if_members_for_messsage_send_over(vk_user_ids['response']['count'])
+      # bot.if_members_over(bot.task.message_offset)
       sleep rand(1..2)
       maked_messages = bot.check_if_message_have_maked
       vk_user_ids['response']['items'].each do |vk_user_id|
