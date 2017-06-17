@@ -21,3 +21,6 @@
 
 #crone
 /cron_log.log
+
+
+/vendor

@@ -21,6 +21,9 @@ module VkBot
     config.i18n.default_locale = :ru
     config.web_console.development_only = false
 
+    config.assets.compile = true
+    config.assets.precompile =  ['*.js', '*.css', '*.css.erb']
+
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     # config.generators do |g|

@@ -13,7 +13,7 @@ set :output, "/home/andrey/vk_bot_test/cron_log.log"
 
 
 # every 2.minutes do
-#   runner "Post.make(4)" , environment: "development"
+#   runner "BotResend.make" , environment: "development"
 # end
 
 # every 2.minutes do
@@ -27,6 +27,10 @@ set :output, "/home/andrey/vk_bot_test/cron_log.log"
 every :hour do
   command "cd /home/andrey/vk_bot_test && rake bots_run:go"
 end
+
+# every :hour do
+#   command "cd /home/andrey/vk_bot_test && rails runner 'BotResend.make'"
+# end
 
 
 # every 4.days do
