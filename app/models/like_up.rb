@@ -71,7 +71,7 @@ puts            user_info = JSON.parse(user_info.body)
                   puts users_data['photos']
                   puts users_data['followers']
                   puts users_data['friends']
-                  if users_data['photos'] > 10 && users_data['friends'] > 40 && users_data['followers'] > 10
+                  if users_data['photos'] > 10 && users_data['friends'] > 40 && users_data['followers'] > 10 && users_data['audios'] > 20
                     puts 'yes'
                     puts photo_id
                     puts '1111111111111111111111111111111'
