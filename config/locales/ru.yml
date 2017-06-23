@@ -43,6 +43,7 @@ ru:
     authorize pls: "Пройдите авторизацию"
     enter: "Войти"
   users:
+    all count: "Колличество обработанных людей"
     User was successfully updated: 'Пользователь обновлен'
     User was successfully destroyed: 'Пользователь удален'
     User was successfully created: 'Пользователь создан'

@@ -5,13 +5,14 @@
 
 # Example:
 #
-set :output, "/home/andrey/vk_bot_test/cron_log.log"
+set :output, "/home/deploy/www/cron_log.log"
 # #
 # every :hour do
 #   runner "Msg.make(4)"
 # end
 
-
+env :PATH, ENV['PATH']
+ 
 # every 2.minutes do
 #   runner "BotResend.make" , environment: "development"
 # end
@@ -25,7 +26,7 @@ set :output, "/home/andrey/vk_bot_test/cron_log.log"
 # end
 
 every :hour do
-  command "cd /home/andrey/vk_bot_test && rake bots_run:go"
+  command "cd /home/deploy/www && RAILS_ENV=production rake bots_run:go"
 end
 
 # every :hour do

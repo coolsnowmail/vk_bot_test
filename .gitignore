@@ -21,6 +21,9 @@
 
 #crone
 /cron_log.log
-
+/public
+/sslsert_log.log
+/config/secrets.yml
+/config/database.yml
 
 /vendor
