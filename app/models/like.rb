@@ -4,7 +4,7 @@ require 'net/http'
 class Like < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)
-    if bot && bot.check_like_limit < 399 && bot.status == 'Active'
+    if bot && bot.check_like_limit < 350 && bot.status == 'Active'
       if bot.task.groups.empty?
         uri = URI.parse('https://api.vk.com/method/messages.send')
         response = Net::HTTP.post_form(
@@ -23,7 +23,7 @@ class Like < ActiveRecord::Base
           'group_id' => group_id,
           'sort' => 'id_desc',
           'offset' => bot.offset_change,
-          'count' => rand(2..4),
+          'count' => rand(1..3),
           'access_token' => bot.access_token,
           'v' => '5.62'
         )

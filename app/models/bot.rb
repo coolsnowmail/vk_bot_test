@@ -23,10 +23,15 @@ class Bot < ActiveRecord::Base
     #                                  .where(vk_group_id: task.groups.first.url) \
     #                                  .count >= members_count
 
-    if task.like_trakings.where(vk_group_id: task.groups.first.url).count >= members_count
-      task.groups.first.destroy
-      task.like_trakings.order(created_at: :desc).first.update(offset: nil)
-    end
+    #if task.like_trakings.where(vk_group_id: task.groups.first.url).count >= members_count
+    #  task.groups.first.destroy
+    #  task.like_trakings.order(created_at: :desc).first.update(offset: nil)
+    #end
+
+    if task.like_trakings.last.offset > members_count
+       task.groups.first.destroy
+       task.like_trakings.order(created_at: :desc).first.update(offset: 0)
+     end
   end
 
   def check_like_limit
