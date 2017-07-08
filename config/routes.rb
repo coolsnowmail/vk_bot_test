@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post 'group_manage/group_leave_join'
+
   controller :sessions do
     get 'login' => :new
     post 'login' => :create

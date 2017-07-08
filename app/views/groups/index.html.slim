@@ -2,8 +2,12 @@
   p#notice = notice
 
 
-h4 = t('groups.Listing groups')
+= form_tag('/group_manage/group_leave_join') do
+  = text_field_tag 'group_id', nil, placeholder: 'ид группы...'
+  = select_tag "act", options_for_select({"Отписаться" =>"leave", "Вступить" =>"join"})
+  = submit_tag
 
+h4 = t('groups.Listing groups')
 ul.comments-box
   - @groups.each do |group|
     li.comment-box id='group_#{group.id}'
