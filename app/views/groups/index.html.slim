@@ -1,11 +1,13 @@
 .alert
   p#notice = notice
 
-
-= form_tag('/group_manage/group_leave_join') do
-  = text_field_tag 'group_id', nil, placeholder: 'ид группы...'
-  = select_tag "act", options_for_select({"Отписаться" =>"leave", "Вступить" =>"join"})
-  = submit_tag
+.wraping
+  = form_tag group_manage_group_leave_join_path, class: "forma" do
+    .field
+      = text_field_tag 'group_id', nil, placeholder: 'ид группы...'
+      = select_tag "act", options_for_select({"Отписаться" =>"leave", "Вступить" =>"join"})
+    .actions
+      = submit_tag(value = "Save", options = {class: "button"})
 
 h4 = t('groups.Listing groups')
 ul.comments-box
