@@ -13,6 +13,7 @@ class GroupManageController < ApplicationController
           'access_token' => bot.access_token,
           'v' => '5.62'
         )
+        sleep 2
       end
     end
     return redirect_to groups_path, notice: "уcgешно"
@@ -30,6 +31,7 @@ class GroupManageController < ApplicationController
       'v' => '5.67'
     )
     response = JSON.parse(response.body)
+    sleep 2
     puts response
   end
 end

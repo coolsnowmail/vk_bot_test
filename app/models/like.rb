@@ -30,7 +30,7 @@ class Like < ActiveRecord::Base
         vk_user_ids = JSON.parse(response.body)
         bot.disactive_bot if vk_user_ids['error']
         bot.if_members_over(vk_user_ids['response']['count'])
-# puts vk_user_ids
+ puts vk_user_ids
         sleep rand(1..3)
         maked_likes = bot.check_if_like_have_maked
         vk_user_ids['response']['items'].each do |vk_user_id|

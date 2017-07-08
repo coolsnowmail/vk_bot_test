@@ -28,7 +28,7 @@ class Bot < ActiveRecord::Base
     #  task.like_trakings.order(created_at: :desc).first.update(offset: nil)
     #end
 
-    if task.like_trakings.last.offset > members_count
+    if task.like_trakings.last.offset >= members_count - 1
        task.groups.first.destroy
        task.like_trakings.order(created_at: :desc).first.update(offset: 0)
      end
