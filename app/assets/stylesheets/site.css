@@ -1,0 +1,15 @@
+.information {
+  background-image: url(flag.jpg);
+  display: flex;
+  flex-direction: row;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.cont li {
+  margin-left: 10px;
+}
