@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  post 'group_manage/group_leave_join'
 
   controller :sessions do
     get 'login' => :new
@@ -11,6 +10,11 @@ Rails.application.routes.draw do
     get 'admin_login' => :new
     post 'admin_login' => :create
     delete 'admin_logout' => :destroy
+  end
+
+  controller :site do
+    get 'landing' => :landing
+    post 'landing' => :sending
   end
 
   resources :users, only: [:show, :new, :edit, :create, :update, :destroy]
@@ -27,4 +31,5 @@ Rails.application.routes.draw do
   root 'sessions#new'
   get 'activate_bot/activate'
   post 'refresh_part', to: 'tasks#refresh_part'
+  post 'group_manage/group_leave_join'
 end
