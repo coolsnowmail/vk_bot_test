@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 350px;
+}
+
+.field_with_errors input{
+  margin: auto auto;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+
+.field_with_errors textarea{
+  margin: auto auto;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.field_with_errors {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.alert {
+  width: 100%
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  background: #CF000F;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.header{
+  background: #87D37C;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:  center;
+}
+
+.header li {
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.header li a {
+  text-decoration: none;
+
+}
+
+.header ul li:nth-of-type(1) a {
+  font-weight: 300;
+  color: #333333;
+}
+
+.header ul li:nth-of-type(2) a {
+  font-weight: 400;
+  color: red;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+.field {
+  display: flex;
+  margin-top: 10px;
+  font-size:  15px;
+}
+
+.actions {
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  align-content: flex-start;
+  margin-top: 15px;
+}
+
+.describe_word {
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+  height: 30px;
+  align-self:  center;
+}
+
+form {
+
+}
+
+.wraping {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
