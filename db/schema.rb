@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170410180811) do
+ActiveRecord::Schema.define(version: 20170716101811) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,14 @@ ActiveRecord::Schema.define(version: 20170410180811) do
   end
 
   add_index "bots", ["task_id"], name: "index_bots_on_task_id", using: :btree
+
+  create_table "clients", force: :cascade do |t|
+    t.string   "name"
+    t.string   "level"
+    t.integer  "phone"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "comment_trakings", force: :cascade do |t|
     t.integer  "comment_id"
@@ -127,6 +135,15 @@ ActiveRecord::Schema.define(version: 20170410180811) do
   end
 
   add_index "tasks", ["user_id"], name: "index_tasks_on_user_id", using: :btree
+
+  create_table "trobles", force: :cascade do |t|
+    t.integer  "client_type"
+    t.integer  "client_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "trobles", ["client_id"], name: "index_trobles_on_client_id", using: :btree
 
   create_table "user_groups", force: :cascade do |t|
     t.integer  "user_id"
