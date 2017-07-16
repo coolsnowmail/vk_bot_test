@@ -52,4 +52,4 @@ gem 'web-console', '~> 2.0'
 gem 'whenever', require: false
 gem 'rake', '~> 12.0'
 gem 'rails_12factor'
-
+gem "font-awesome-rails"
