@@ -12,8 +12,10 @@ class SiteController < ApplicationController
     @client = Client.new(client_params)
     respond_to do |format|
       if @client.save
+        flash[:notice] = "Вы успешно записались на урок!"
         return render partial: 'success_save'
       else
+        flash[:notice] = "Вы неверно заполнили форму"
         return render partial: 'fail_save'
       end
       # if @client = @client.save

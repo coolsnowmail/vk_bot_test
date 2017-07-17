@@ -21,6 +21,15 @@ h6 {
     font-weight: 700;
 }
 
+#for_alert li {
+  color: black;
+  list-style-type: none;
+}
+
+* {
+  padding: 0;
+}
+
 .align-item {
   align-self: center;
 }

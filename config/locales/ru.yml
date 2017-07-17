@@ -122,8 +122,27 @@ ru:
     was successfully destroyed: "Сообщение удаленно"
     create a new message: "Чтобы все заработало неодходимо придумать хотябы пару сообщений, которые будут отправляться людям для репламмы вашего сообщества!"
   activerecord:
+    attributes:
+      client:
+        name: "Имя: "
+        phone: "Телефон: "
+        level: "Уровень: "
     errors:
       models:
+        client:
+          attributes:
+            name:
+              blank: "Запиштите Ваше имя"
+              too_long: "Слишком длинное"
+            phone:
+              blank: "Запишите Ваш телефон"
+              not_a_number: "Номер телефона должен состоять из цифр"
+              too_short: "Слишком короткий номер телефона"
+              taken: "Вы уже записались на урок. С вами свяжутся в ближайшее время"
+              too_long: "Слишком длинный"
+            level:
+              blank: "Запишите свой примерный уровень владения языком"
+              too_long: "Слишком длинное сообщение"
         admin:
           attributes:
             password_confirmation:
