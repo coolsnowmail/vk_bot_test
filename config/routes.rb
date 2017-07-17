@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   resources :group_messager, only: [:new, :edit, :create, :update]
   resources :bots, only: [:new, :edit, :create, :update, :destroy]
 
-  root 'sessions#new'
+  root 'site#landing'
   get 'activate_bot/activate'
   post 'refresh_part', to: 'tasks#refresh_part'
   post 'group_manage/group_leave_join'
