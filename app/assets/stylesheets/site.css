@@ -31,13 +31,13 @@ h6 {
 }
 
 .align-item {
-  align-self: center;
+  margin-top: 10%;
 }
 
-.flexing {
+/* .flexing {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .icons {
   color: green;
@@ -45,6 +45,7 @@ h6 {
 
 .check-list {
   font-size: 25px;
+  margin-top: 4%;
 }
 
 .topnav {
