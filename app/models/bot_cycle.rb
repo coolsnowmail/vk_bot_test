@@ -3,10 +3,6 @@ class BotCycle < ActiveRecord::Base
   def self.make(bot_id)
     bot = Bot.find_by(id: bot_id)
     if bot
-      # Like.make(bot_id)
-      # puts "like"
-      # Msg.make(bot_id)
-      # puts "message"
       Like.make(bot_id)
       puts "like"
       Com.make(bot_id)

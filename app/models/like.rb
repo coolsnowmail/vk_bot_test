@@ -14,6 +14,14 @@ class Like < ActiveRecord::Base
           'access_token' => bot.access_token,
           'v' => '5.62'
         )
+        sleep rand(1..3)
+        response = Net::HTTP.post_form(
+          uri,
+          'user_id' => bot.task.user.admin.vk_id,
+          'message' => "У бота № #{bot.id} юзера #{bot.task.user.name} закончились группы для лайков. Срочно добавте новвы группы",
+          'access_token' => bot.access_token,
+          'v' => '5.62'
+        )
         bot.disactive_bot
       else
         group_id = bot.task.groups.first.url
@@ -76,6 +84,15 @@ class Like < ActiveRecord::Base
                   'access_token' => bot.access_token,
                   'v' => '5.62'
                 )
+                sleep rand(1..3)
+                uri = URI.parse('https://api.vk.com/method/messages.send')
+                response = Net::HTTP.post_form(
+                  uri,
+                  'user_id' => bot.task.user.vk_id,
+                  'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не лайкает. код: #{response['error']}",
+                  'access_token' => bot.access_token,
+                  'v' => '5.62'
+                )
                 bot.disactive_bot
                 like_track(bot, vk_user_id, group_id)
                 break
@@ -119,6 +136,14 @@ class Like < ActiveRecord::Base
                       'access_token' => bot.access_token,
                       'v' => '5.62'
                     )
+                    sleep rand(1..3)
+                    response = Net::HTTP.post_form(
+                      uri,
+                      'user_id' => bot.task.user.vk_id,
+                      'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не лайкает. код: #{response['error']}",
+                      'access_token' => bot.access_token,
+                      'v' => '5.62'
+                    )
                     bot.disactive_bot
                     like_track(bot, vk_user_id, group_id)
                     break
@@ -150,6 +175,14 @@ class Like < ActiveRecord::Base
         'v' => '5.62'
       )
       sleep rand(1..3)
+      Net::HTTP.post_form(
+        uri,
+        'user_id' => bot.task.user.admin.vk_id,
+        'message' => response['error']['error_msg'],
+        'access_token' => bot.access_token,
+        'v' => '5.62'
+      )
+      sleep rand(1..3)
       bot.disactive_bot
     end
   end
@@ -166,6 +199,14 @@ class Like < ActiveRecord::Base
       Net::HTTP.post_form(
         uri,
         'user_id' => bot.task.user.admin.vk_id,
+        'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не сохраняет лайки",
+        'access_token' => bot.access_token,
+        'v' => '5.62'
+      )
+      sleep rand(1..3)
+      Net::HTTP.post_form(
+        uri,
+        'user_id' => bot.task.user.vk_id,
         'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не сохраняет лайки",
         'access_token' => bot.access_token,
         'v' => '5.62'
@@ -188,6 +229,14 @@ class Like < ActiveRecord::Base
       response = Net::HTTP.post_form(
         uri,
         'user_id' => bot.task.user.admin.vk_id,
+        'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не сохраняет лайки",
+        'access_token' => bot.access_token,
+        'v' => '5.62'
+      )
+      sleep rand(1..3)
+      response = Net::HTTP.post_form(
+        uri,
+        'user_id' => bot.task.user.vk_id,
         'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не сохраняет лайки",
         'access_token' => bot.access_token,
         'v' => '5.62'

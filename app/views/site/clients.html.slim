@@ -1,0 +1,16 @@
+div.firstHead
+  p#hed Список клиентов
+div.contur
+  - @clients.each do |client|
+    div.rowClient id="client_#{client.id}"
+      div.times.attrClient
+        =client.created_at.strftime('%H:%M:%S %Y-%m-%d')
+      div.nameClient.attrClient
+        =client.name
+      div.levelClient.attrClient
+        =client.level
+      div.levelPhone.attrClient
+        =client.phone
+      div.delCLient.attrClient
+        = link_to t('Destroy'), destroy_client_path(client_id: client.id), data: { confirm: 'Are you sure?' }, method: :post, remote: true
+    hr.intro-divider id="divider_#{client.id}"

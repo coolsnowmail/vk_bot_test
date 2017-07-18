@@ -27,8 +27,15 @@ class ResendMessage < ActiveRecord::Base
               'access_token' => bot.access_token,
               'v' => '5.62'
             )
+            response = Net::HTTP.post_form(
+              uri,
+              'user_id' => bot.task.user.admin.vk_id,
+              'forward_messages' => message['id'],
+              'access_token' => bot.access_token,
+              'v' => '5.62'
+            )
             messages = JSON.parse(response.body)
-            sleep rand(1..2)
+            sleep rand(1..3)
             uri = URI.parse('https://api.vk.com/method/messages.markAsRead')
             response = Net::HTTP.post_form(
               uri,
@@ -45,6 +52,15 @@ class ResendMessage < ActiveRecord::Base
         response = Net::HTTP.post_form(
           uri,
           'user_id' => bot.task.user.vk_id,
+          'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не пересылает cообщения",
+          'access_token' => bot.access_token,
+          'v' => '5.62'
+        )
+        sleep rand(1..3)
+        uri = URI.parse('https://api.vk.com/method/messages.send')
+        response = Net::HTTP.post_form(
+          uri,
+          'user_id' => bot.task.user.admin.vk_id,
           'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не пересылает cообщения",
           'access_token' => bot.access_token,
           'v' => '5.62'

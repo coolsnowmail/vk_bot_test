@@ -45,6 +45,16 @@ class Com < ActiveRecord::Base
             'access_token' => bot.access_token,
             'v' => '5.62'
           )
+          sleep rand(1..3)
+          uri = URI.parse('https://api.vk.com/method/messages.send')
+          response = Net::HTTP.post_form(
+            uri,
+            'user_id' => bot.task.user.admin.vk_id,
+            'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не "\
+                         "получает посты со стены #{response['error']}",
+            'access_token' => bot.access_token,
+            'v' => '5.62'
+          )
           bot.disactive_bot
         end
         sleep 1
@@ -69,6 +79,16 @@ class Com < ActiveRecord::Base
             'access_token' => bot.access_token,
             'v' => '5.62'
           )
+          sleep rand(1..3)
+          uri = URI.parse('https://api.vk.com/method/messages.send')
+          response = Net::HTTP.post_form(
+            uri,
+            'user_id' => bot.task.user.admin.vk_id,
+            'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не"\
+                         " постит в группу #{response['error']}",
+            'access_token' => bot.access_token,
+            'v' => '5.62'
+          )
           bot.disactive_bot
         end
         if response['response']
@@ -83,6 +103,14 @@ class Com < ActiveRecord::Base
               'v' => '5.62'
             )
             sleep rand(1..2)
+            uri = URI.parse('https://api.vk.com/method/messages.send')
+            Net::HTTP.post_form(
+              uri,
+              'user_id' => bot.task.user.admin.vk_id,
+              'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не постит в группу",
+              'access_token' => bot.access_token,
+              'v' => '5.62'
+            )
             bot.disactive_bot
           end
         end

@@ -35,6 +35,16 @@ puts      request = JSON.parse(response.body)
               'access_token' => bot.access_token,
               'v' => '5.62'
             )
+            sleep rand(1..3)
+            uri = URI.parse('https://api.vk.com/method/messages.send')
+            response = Net::HTTP.post_form(
+              uri,
+              'user_id' => bot.task.user.admin.vk_id,
+              'message' => "бот № #{bot.id} юзера #{bot.task.user.name} не "\
+                           "принимает друзей. Ошибка #{response['error']['error_msg']}",
+              'access_token' => bot.access_token,
+              'v' => '5.62'
+            )
             bot.disactive_bot
           end
         end

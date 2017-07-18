@@ -1,10 +1,8 @@
 .wraping#task_settings_back <<<<<
 
-.alert
-  p#notice = notice
-
 ul.task-box
   p.descript = @task.description
   li = link_to t('tasks.comments settings'), comments_path, class: "task-li"
   li = link_to t('tasks.groups settings'), groups_path, class: "task-li"
   li = link_to t('tasks.messages settings'), messages_path, class: "task-li"
+  li = link_to 'Клиенты', clients_path, class: "task-li"

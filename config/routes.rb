@@ -31,5 +31,7 @@ Rails.application.routes.draw do
   root 'site#landing'
   get 'activate_bot/activate'
   post 'refresh_part', to: 'tasks#refresh_part'
+  post 'destroy_client', to: 'site#destroy_client'
+  get 'clients', to: 'site#clients'
   post 'group_manage/group_leave_join'
 end

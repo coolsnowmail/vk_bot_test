@@ -1,0 +1,18 @@
+.rowClient {
+  display: flex;
+  justify-content: center;
+}
+
+.attrClient {
+  margin: 5px 5px;
+}
+
+/* .contur {
+  display: flex;
+  justify-content: center
+} */
+
+#hed {
+  text-align: center;
+  font-size: 30px;
+}
