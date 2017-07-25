@@ -7,6 +7,7 @@ class ActivateBotController < ApplicationController
     return redirect_to user_path(@current_user), notice: t('bots.params error') unless bot
     # return redirect_to user_path(@current_user), notice: t('enter group for messages') unless bot.task.message_group
     # return redirect_to user_path(@current_user), notice: t('enter key words') unless bot.task.message_group.key_words.any?
+    vk_id = check_token(bot)
     return redirect_to user_path(@current_user), notice: t('bots.access token error') unless vk_id['response']
     return redirect_to user_path(@current_user), notice: t('bots.access token error') unless vk_id['response'].any?
     if vk_id['response']
